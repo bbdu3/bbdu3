@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-GitHub Biweekly Activity Report Generator for bbdu3.
-Generates comprehensive biweekly markdown reports following the reference format.
+GitHub Weekly Activity Report Generator for bbdu3.
+All reporting boundaries use Asia/Shanghai time and half-open intervals [start, end).
 """
 
 import os
@@ -27,8 +27,9 @@ USERNAME = (
 )
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 BASE_API = "https://api.github.com"
-ANCHOR_DATE = datetime(2026, 8, 3, tzinfo=timezone.utc)  # First biweekly period starts on 2026-08-03
-GLOBAL_START = datetime(2026, 8, 3, tzinfo=timezone.utc)
+BEIJING_TZ = timezone(timedelta(hours=8), name="Asia/Shanghai")
+FIRST_PERIOD_START = datetime(2026, 8, 10, tzinfo=BEIJING_TZ)
+WEEKLY_ANCHOR = datetime(2026, 8, 15, tzinfo=BEIJING_TZ)  # Saturday 00:00
 REPORT_DIR = Path(__file__).resolve().parent.parent / "report"
 WEEKDAY_CN = ["一", "二", "三", "四", "五", "六", "日"]
 
@@ -44,7 +45,7 @@ if not GITHUB_TOKEN:
 session = requests.Session()
 session.headers.update({
     "Accept": "application/vnd.github.v3+json",
-    "User-Agent": "github-biweekly-report",
+    "User-Agent": "github-weekly-report",
 })
 if GITHUB_TOKEN:
     session.headers.update({"Authorization": f"token {GITHUB_TOKEN}"})
@@ -124,6 +125,12 @@ def fmt_date(d):
     return d.strftime("%Y-%m-%d")
 
 
+def fmt_api_date_beijing(value):
+    """Format a GitHub ISO timestamp as a Beijing calendar date."""
+    parsed = parse_dt(value)
+    return fmt_date(parsed.astimezone(BEIJING_TZ)) if parsed else "—"
+
+
 def fmt_short(d):
     """Format date as MM.DD."""
     return d.strftime("%m.%d")
@@ -146,21 +153,52 @@ def repo_name_from_url(url):
 
 # ── Period Calculation ─────────────────────────────────────────────────────────
 
-def generate_periods(anchor, global_start, ref_end):
-    """Generate 14-day biweekly periods starting from anchor."""
+def now_beijing():
+    return datetime.now(BEIJING_TZ)
+
+
+def period_last_moment(end):
+    """Return a display/query instant inside the half-open interval."""
+    return end - timedelta(seconds=1)
+
+
+def generate_periods(ref_time):
+    """Generate the migration period followed by Saturday-to-Saturday weeks."""
     periods = []
-    d = anchor
-    while d <= ref_end:
-        ps = d
-        pe = d + timedelta(days=13)
-        periods.append((ps, pe))
-        d += timedelta(days=14)
+    if ref_time >= FIRST_PERIOD_START:
+        periods.append((FIRST_PERIOD_START, WEEKLY_ANCHOR))
+    d = WEEKLY_ANCHOR
+    while d <= ref_time:
+        periods.append((d, d + timedelta(days=7)))
+        d += timedelta(days=7)
     return periods
+
+
+def validate_periods(periods):
+    for start, end in periods:
+        if start >= end:
+            raise ValueError(f"Period start must be before end: {start} >= {end}")
+    return periods
+
+
+def latest_periods(ref_time):
+    """Return the just-ended period plus the current period at a boundary run."""
+    periods = generate_periods(ref_time)
+    if not periods:
+        return []
+    current = next((p for p in reversed(periods) if p[0] <= ref_time < p[1]), None)
+    ended = [p for p in periods if p[1] <= ref_time]
+    result = []
+    if ended:
+        result.append(ended[-1])
+    if current and current not in result:
+        result.append(current)
+    return result
 
 
 def generate_placeholder_report(start, end):
     """Create a placeholder report for a period that has started but not ended yet."""
-    period_cn = f"{fmt_cn(start)} — {fmt_cn(end)}"
+    period_cn = f"{fmt_cn(start)} — {fmt_cn(period_last_moment(end))}"
     lines = []
     lines.append(f"# GitHub 工作总结报告：{USERNAME}")
     lines.append("")
@@ -168,9 +206,9 @@ def generate_placeholder_report(start, end):
     lines.append("")
     lines.append("> 当前周期尚未结束，暂时只生成占位文件。")
     lines.append("")
-    lines.append(f"> 该报告将在 {fmt_date(end)} 结束后，自动填充本周期的 GitHub 活动记录。")
+    lines.append(f"> 该报告将在 {fmt_date(end)} 00:00（北京时间）后自动填充。")
     lines.append("")
-    lines.append(f"*报告生成时间：{fmt_date(datetime.now(timezone.utc))}*")
+    lines.append(f"*报告生成时间：{fmt_date(now_beijing())}（北京时间）*")
     lines.append("")
     return "\n".join(lines)
 
@@ -224,9 +262,11 @@ def fetch_starred_with_dates():
 
 
 def fetch_period_data(start, end):
-    """Fetch all GitHub data for a biweekly period."""
-    s = fmt_date(start)
-    e = fmt_date(end)
+    """Fetch GitHub data for one Beijing-time weekly interval [start, end)."""
+    start_utc = start.astimezone(timezone.utc)
+    end_utc = end.astimezone(timezone.utc)
+    s = start_utc.isoformat().replace("+00:00", "Z")
+    e = period_last_moment(end_utc).isoformat().replace("+00:00", "Z")
     stats = {
         "prs": [], "issues": [], "commits": [],
         "events": [], "starred": [], "pr_details": {},
@@ -255,7 +295,7 @@ def fetch_period_data(start, end):
 
     # Events (only recent ~90 days)
     events_90d_ago = datetime.now(timezone.utc) - timedelta(days=89)
-    if start >= events_90d_ago or end >= events_90d_ago:
+    if start_utc >= events_90d_ago or end_utc >= events_90d_ago:
         print(f"  Fetching Events ...")
         page = 1
         all_events = []
@@ -272,7 +312,7 @@ def fetch_period_data(start, end):
         filtered = []
         for ev in all_events:
             created = parse_dt(ev.get("created_at"))
-            if created and start <= created <= end + timedelta(days=1):
+            if created and start_utc <= created < end_utc:
                 filtered.append(ev)
         stats["events"] = filtered
 
@@ -288,6 +328,7 @@ def analyze_daily_activity(stats, start, end):
 
     for pr in stats["prs"]:
         d = parse_dt(pr.get("created_at"))
+        d = d.astimezone(BEIJING_TZ) if d else None
         if d:
             key = fmt_date(d)
             daily[key] += 1
@@ -295,6 +336,7 @@ def analyze_daily_activity(stats, start, end):
 
     for issue in stats["issues"]:
         d = parse_dt(issue.get("created_at"))
+        d = d.astimezone(BEIJING_TZ) if d else None
         if d:
             key = fmt_date(d)
             daily[key] += 1
@@ -302,6 +344,7 @@ def analyze_daily_activity(stats, start, end):
 
     for commit in stats["commits"]:
         d = parse_dt(commit.get("commit", {}).get("author", {}).get("date"))
+        d = d.astimezone(BEIJING_TZ) if d else None
         if d:
             key = fmt_date(d)
             daily[key] += 1
@@ -373,12 +416,12 @@ def categorize_prs(prs):
 # ── Report Generation ──────────────────────────────────────────────────────────
 
 def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None, prev_start=None, prev_end=None):
-    """Generate a complete biweekly report in markdown.
-    prev_stats: stats dict for the previous biweekly period (for comparison).
+    """Generate a complete weekly report in markdown.
+    prev_stats: stats dict for the previous weekly period (for comparison).
     """
     s_str = fmt_short(start)
-    e_str = fmt_short(end)
-    period_cn = f"{fmt_cn(start)} — {fmt_cn(end)}"
+    e_str = fmt_short(period_last_moment(end))
+    period_cn = f"{fmt_cn(start)} — {fmt_cn(period_last_moment(end))}"
 
     total_prs = len(stats["prs"])
     total_issues = len(stats["issues"])
@@ -410,7 +453,7 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
     lines.append(f"# GitHub 工作总结报告：{USERNAME}")
     lines.append("")
     lines.append(f"> **统计周期**：{period_cn}")
-    name = user_profile.get("name", USERNAME)
+    name = user_profile.get("name") or USERNAME
     bio = user_profile.get("bio", "") or ""
     company = user_profile.get("company", "") or ""
     location = user_profile.get("location", "") or ""
@@ -464,7 +507,7 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
         lines.append(f"{i}. {point}")
     lines.append("")
 
-    # ── Biweekly Comparison (if previous period data available) ──
+    # ── Weekly Comparison (if previous period data available) ──
     if prev_stats is not None and prev_start is not None and prev_end is not None:
         prev_total = len(prev_stats["prs"]) + len(prev_stats["issues"]) + len(prev_stats["commits"])
         curr_total = total_activity
@@ -492,13 +535,13 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
             else:
                 return "0%"
 
-        lines.append("### 📊 与上一个双周对比")
+        lines.append("### 📊 与上一周对比")
         lines.append("")
-        prev_period_str = f"{fmt_short(prev_start)} - {fmt_short(prev_end)}"
-        curr_period_str = f"{fmt_short(start)} - {fmt_short(end)}"
+        prev_period_str = f"{fmt_short(prev_start)} - {fmt_short(period_last_moment(prev_end))}"
+        curr_period_str = f"{fmt_short(start)} - {fmt_short(period_last_moment(end))}"
         lines.append(f"> 对比周期：{prev_period_str} → {curr_period_str}")
         lines.append("")
-        lines.append("| 指标 | 上双周 | 本双周 | 变化 | 趋势 |")
+        lines.append("| 指标 | 上周 | 本周 | 变化 | 趋势 |")
         lines.append("|------|--------|--------|------|------|")
         lines.append(f"| **总活动量** | {prev_total} | **{curr_total}** | {_pct_change(curr_total, prev_total)} | {_trend(curr_total, prev_total)} |")
         lines.append(f"| Pull Request | {prev_pr_count} | {total_prs} | {_pct_change(total_prs, prev_pr_count)} | {_trend(total_prs, prev_pr_count)} |")
@@ -578,7 +621,7 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
     lines.append("|------|--------|--------|----------|")
 
     d = start
-    while d <= end:
+    while d < end:
         date_str = fmt_date(d)
         weekday = WEEKDAY_CN[d.weekday()]
         count = daily.get(date_str, 0)
@@ -743,7 +786,7 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
         lines.append("|------|---------|---------|---------|")
         for repo, commits in sorted(commit_by_repo.items(), key=lambda x: len(x[1]), reverse=True):
             latest = commits[0]
-            latest_date = latest.get("commit", {}).get("author", {}).get("date", "")[:10]
+            latest_date = fmt_api_date_beijing(latest.get("commit", {}).get("author", {}).get("date", ""))
             msgs = [c.get("commit", {}).get("message", "").split("\n")[0][:50] for c in commits[:3]]
             msg_str = "; ".join(msgs)
             lines.append(f"| {repo} | {len(commits)} | {latest_date} | {msg_str} |")
@@ -763,7 +806,7 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
         for star in period_stars:
             repo_info = star.get("repo", {})
             full_name = repo_info.get("full_name", "")
-            starred_at = star.get("starred_at", "")[:10]
+            starred_at = fmt_api_date_beijing(star.get("starred_at", ""))
             desc = repo_info.get("description", "") or ""
             lines.append(f"| [{full_name}](https://github.com/{full_name}) | {starred_at} | {desc[:60]} |")
     else:
@@ -782,7 +825,7 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
         for ev in release_events:
             repo = ev.get("repo", {}).get("name", "")
             tag = ev.get("payload", {}).get("release", {}).get("tag_name", "")
-            created = ev.get("created_at", "")[:10]
+            created = fmt_api_date_beijing(ev.get("created_at", ""))
             lines.append(f"| {repo} | **{tag}** | {created} |")
     else:
         lines.append("> 本周期无 Release 记录（Release 数据仅在 Events API 可查时段内有效）。")
@@ -791,7 +834,7 @@ def generate_report(start, end, stats, user_profile, all_repos, prev_stats=None,
     lines.append("")
 
     # ── Footer ──
-    lines.append(f"*报告生成时间：{fmt_date(datetime.now(timezone.utc))} | 数据来源：GitHub Search API, Events API*")
+    lines.append(f"*报告生成时间：{fmt_date(now_beijing())}（北京时间） | 数据来源：GitHub Search API, Events API*")
     lines.append("")
 
     return "\n".join(lines)
@@ -864,8 +907,8 @@ def generate_index(reports):
                     sy, sm, sd = int(m.group(1)), int(m.group(2)), int(m.group(3))
                     ey, em, ed = int(m.group(4)), int(m.group(5)), int(m.group(6))
                     try:
-                        ps = datetime(sy, sm, sd, tzinfo=timezone.utc)
-                        pe = datetime(ey, em, ed, tzinfo=timezone.utc)
+                        ps = datetime(sy, sm, sd, tzinfo=BEIJING_TZ)
+                        pe = datetime(ey, em, ed, tzinfo=BEIJING_TZ) + timedelta(days=1)
                         # Try to read counts from the file
                         pr_count, issue_count, commit_count = "—", "—", "—"
                         try:
@@ -889,10 +932,10 @@ def generate_index(reports):
     all_reports = sorted(existing.values(), key=lambda x: x[0][0], reverse=True)
 
     lines = []
-    lines.append("# GitHub 双周工作报告索引")
+    lines.append("# GitHub 每周工作报告索引")
     lines.append("")
     lines.append(f"> 用户：[{USERNAME}](https://github.com/{USERNAME})")
-    lines.append(f"> 统计范围：2025-01-01 至今")
+    lines.append(f"> 统计范围：2026-08-10 至今")
     lines.append(f"> 报告数量：{len(all_reports)} 份")
     lines.append("")
     lines.append("---")
@@ -902,14 +945,14 @@ def generate_index(reports):
 
     for i, (period, filepath, counts) in enumerate(all_reports, 1):
         start, end = period
-        period_str = f"{start.strftime('%Y.%m.%d')} - {end.strftime('%Y.%m.%d')}"
+        period_str = f"{start.strftime('%Y.%m.%d')} - {period_last_moment(end).strftime('%Y.%m.%d')}"
         filename = filepath.name
         lines.append(f"| {i} | {period_str} | [{filename}](./{filename}) | {counts[0]} | {counts[1]} | {counts[2]} |")
 
     lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append(f"*索引更新时间：{fmt_date(datetime.now(timezone.utc))}*")
+    lines.append(f"*索引更新时间：{fmt_date(now_beijing())}（北京时间）*")
     lines.append("")
 
     return "\n".join(lines)
@@ -919,16 +962,16 @@ def generate_index(reports):
 
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="Generate GitHub biweekly reports")
+    parser = argparse.ArgumentParser(description="Generate GitHub weekly reports (Asia/Shanghai)")
     parser.add_argument("--start", help="Start date (YYYY-MM-DD), overrides auto calculation")
     parser.add_argument("--end", help="End date (YYYY-MM-DD), overrides auto calculation")
     parser.add_argument("--periods", help="Comma-separated period ranges: 'start1..end1,start2..end2'")
-    parser.add_argument("--all", action="store_true", help="Generate all periods from 2025-01-01 to today")
-    parser.add_argument("--latest", action="store_true", help="Generate only the latest period")
+    parser.add_argument("--all", action="store_true", help="Generate all weekly periods from 2026-08-10")
+    parser.add_argument("--latest", action="store_true", help="Fill the ended week and create the current placeholder")
     args = parser.parse_args()
 
     print(f"{'='*60}")
-    print(f"GitHub Biweekly Report Generator")
+    print(f"GitHub Weekly Report Generator (Asia/Shanghai)")
     print(f"User: {USERNAME}")
     print(f"{'='*60}")
     print()
@@ -958,23 +1001,21 @@ def main():
         for p in args.periods.split(","):
             parts = p.strip().split("..")
             if len(parts) == 2:
-                ps = datetime.strptime(parts[0], "%Y-%m-%d").replace(tzinfo=timezone.utc)
-                pe = datetime.strptime(parts[1], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                ps = datetime.strptime(parts[0], "%Y-%m-%d").replace(tzinfo=BEIJING_TZ)
+                pe = datetime.strptime(parts[1], "%Y-%m-%d").replace(tzinfo=BEIJING_TZ)
                 periods.append((ps, pe))
     elif args.start and args.end:
-        ps = datetime.strptime(args.start, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-        pe = datetime.strptime(args.end, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        ps = datetime.strptime(args.start, "%Y-%m-%d").replace(tzinfo=BEIJING_TZ)
+        pe = datetime.strptime(args.end, "%Y-%m-%d").replace(tzinfo=BEIJING_TZ)
         periods = [(ps, pe)]
     elif args.latest:
-        today = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-        periods = [p for p in generate_periods(ANCHOR_DATE, GLOBAL_START, today) if p[0] <= today <= p[1]]
-        if not periods:
-            periods = [generate_periods(ANCHOR_DATE, GLOBAL_START, today)[-1]]
+        periods = latest_periods(now_beijing())
     else:
         # Default: generate all periods that have started so far
-        periods = generate_periods(ANCHOR_DATE, GLOBAL_START, datetime.now(timezone.utc))
+        periods = generate_periods(now_beijing())
 
-    print(f"Generating {len(periods)} biweekly report(s) ...")
+    periods = validate_periods(periods)
+    print(f"Generating {len(periods)} weekly report(s) ...")
     print()
 
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
@@ -988,11 +1029,11 @@ def main():
         e_str = fmt_short(pe)
         print(f"[{idx}/{len(periods)}] Period: {s_str} - {e_str}")
 
-        today = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-        if today < pe:
+        current_time = now_beijing()
+        if current_time < pe:
             print("  Current period is still ongoing. Creating placeholder report.")
             report = generate_placeholder_report(ps, pe)
-            filename = f"github_activity_report_{ps.strftime('%Y.%m.%d')}_to_{pe.strftime('%Y.%m.%d')}.md"
+            filename = f"github_activity_report_{ps.strftime('%Y.%m.%d')}_to_{period_last_moment(pe).strftime('%Y.%m.%d')}.md"
             filepath = REPORT_DIR / filename
             filepath.write_text(report, encoding="utf-8")
             print(f"  Created placeholder: {filename}")
@@ -1007,7 +1048,7 @@ def main():
         period_stars = []
         for star in all_starred:
             starred_at = parse_dt(star.get("starred_at", ""))
-            if starred_at and ps <= starred_at <= pe + timedelta(days=1):
+            if starred_at and ps.astimezone(timezone.utc) <= starred_at < pe.astimezone(timezone.utc):
                 period_stars.append(star)
         stats["starred"] = period_stars
 
@@ -1017,7 +1058,7 @@ def main():
             print(f"  No activity found. Generating minimal report.")
             report = generate_report(ps, pe, stats, user_profile, all_repos,
                                      prev_stats=prev_stats, prev_start=prev_start, prev_end=prev_end)
-            filename = f"github_activity_report_{ps.strftime('%Y.%m.%d')}_to_{pe.strftime('%Y.%m.%d')}.md"
+            filename = f"github_activity_report_{ps.strftime('%Y.%m.%d')}_to_{period_last_moment(pe).strftime('%Y.%m.%d')}.md"
             filepath = REPORT_DIR / filename
             filepath.write_text(report, encoding="utf-8")
             print(f"  Generated (empty): {filename}")
@@ -1032,7 +1073,7 @@ def main():
         # Generate report with comparison to previous period
         report = generate_report(ps, pe, stats, user_profile, all_repos,
                                  prev_stats=prev_stats, prev_start=prev_start, prev_end=prev_end)
-        filename = f"github_activity_report_{ps.strftime('%Y.%m.%d')}_to_{pe.strftime('%Y.%m.%d')}.md"
+        filename = f"github_activity_report_{ps.strftime('%Y.%m.%d')}_to_{period_last_moment(pe).strftime('%Y.%m.%d')}.md"
         filepath = REPORT_DIR / filename
         filepath.write_text(report, encoding="utf-8")
         print(f"  Generated: {filename} (PRs:{len(stats['prs'])}, Issues:{len(stats['issues'])}, Commits:{len(stats['commits'])})")
