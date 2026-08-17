@@ -1,5 +1,5 @@
 #!/bin/bash
-# Shell wrapper for biweekly report generation
+# Shell wrapper for weekly report generation
 # Usage:
 #   ./scripts/run_reports.sh                  # Generate all periods
 #   ./scripts/run_reports.sh --latest         # Generate only latest period
@@ -10,7 +10,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR/.."
 
-echo "=== GitHub Biweekly Report Generator ==="
+echo "=== GitHub Weekly Report Generator ==="
 echo "Working directory: $(pwd)"
 echo ""
 
