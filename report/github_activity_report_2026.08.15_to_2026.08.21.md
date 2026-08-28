@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月15日 — 2026年8月21日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：7 | **Followers**：0 | **Following**：0
+> **公开仓库数**：10 | **Followers**：0 | **Following**：0
 
 ---
 
@@ -78,7 +78,7 @@ iflytek                        ████████             44%
 |------|--------|--------|----------|
 | 2026-08-15（六） | 0 | ░░░░░ | — |
 | 2026-08-16（日） | 0 | ░░░░░ | — |
-| **2026-08-17（一）** | **7** | ███████ | 7 项活动（iflytek/astron-rpa), bbdu3/bbdu3), bbdu3/bbdu3） |
+| **2026-08-17（一）** | **7** | ███████ | 7 项活动（bbdu3/bbdu3, bbdu3/bbdu3), iflytek/astron-rpa)） |
 | 2026-08-18（二） | 0 | ░░░░░ | — |
 | 2026-08-19（三） | 0 | ░░░░░ | — |
 | 2026-08-20（四） | 1 | █░░░░ | PR #73 (iflytek/astronclaw-tutorial) |
@@ -129,7 +129,7 @@ iflytek                        ████████             44%
 
 | # | 仓库 | Issue | 标题 | 状态 |
 |---|------|-------|------|------|
-| 1 | iflytek/skillhub | [#740](https://github.com/iflytek/skillhub/issues/740) | [Bug] API message localization depends on host system locale | 🟢 开放 |
+| 1 | iflytek/skillhub | [#740](https://github.com/iflytek/skillhub/issues/740) | [Bug] API message localization depends on host system locale | ✅ 已关闭 |
 | 2 | iflytek/astron-rpa | [#844](https://github.com/iflytek/astron-rpa/issues/844) | [Bug]: `engine/..../executor.py`中任务重试次数判断错误 | 🟢 开放 |
 
 ---
@@ -190,4 +190,4 @@ iflytek                        ████████             44%
 
 ---
 
-*报告生成时间：2026-08-22（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-08-29（北京时间） | 数据来源：GitHub Search API, Events API*

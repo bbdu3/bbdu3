@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月10日 — 2026年8月14日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：7 | **Followers**：0 | **Following**：0
+> **公开仓库数**：10 | **Followers**：0 | **Following**：0
 
 ---
 
@@ -157,4 +157,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-08-22（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-08-29（北京时间） | 数据来源：GitHub Search API, Events API*
