@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月22日 — 2026年8月28日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：10 | **Followers**：0 | **Following**：0
+> **公开仓库数**：11 | **Followers**：0 | **Following**：0
 
 ---
 
@@ -18,7 +18,7 @@
 | Pull Request 数 | **1** 个（已合并 1，开放 0） |
 | Issue 数 | **1** 个 |
 | Commit 数 | **3** 次 |
-| 活动事件数 | **13** 次 |
+| 活动事件数 | **14** 次 |
 | 总活动量 | **5** |
 
 ### 🎯 工作重心分布
@@ -66,6 +66,7 @@ hnxtcloud                      ████                 20%
 | 🍴 **ForkEvent** | 3 | Fork |
 | 🔀 **PullRequestEvent** | 2 | PR 操作 |
 | 📋 **IssuesEvent** | 2 | Issue 操作 |
+| 🗑️ **DeleteEvent** | 1 | 删除分支 |
 | 💬 **IssueCommentEvent** | 1 | Issue 评论 |
 | 🌿 **CreateEvent** | 1 | 创建分支/标签 |
 
@@ -178,4 +179,4 @@ hnxtcloud                      ████                 20%
 
 ---
 
-*报告生成时间：2026-08-29（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-09-05（北京时间） | 数据来源：GitHub Search API, Events API*

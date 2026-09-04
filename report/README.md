@@ -2,17 +2,18 @@
 
 > 用户：[bbdu3](https://github.com/bbdu3)
 > 统计范围：2026-08-10 至今
-> 报告数量：4 份
+> 报告数量：5 份
 
 ---
 
 | 序号 | 统计周期 | 报告链接 | PR数 | Issue数 | Commit数 |
 |------|----------|----------|------|---------|---------|
-| 1 | 2026.08.29 - 2026.09.04 | [github_activity_report_2026.08.29_to_2026.09.04.md](./github_activity_report_2026.08.29_to_2026.09.04.md) | 0 | 0 | 0 |
-| 2 | 2026.08.22 - 2026.08.28 | [github_activity_report_2026.08.22_to_2026.08.28.md](./github_activity_report_2026.08.22_to_2026.08.28.md) | 1 | 1 | 3 |
-| 3 | 2026.08.15 - 2026.08.21 | [github_activity_report_2026.08.15_to_2026.08.21.md](./github_activity_report_2026.08.15_to_2026.08.21.md) | 3 | 2 | 4 |
-| 4 | 2026.08.10 - 2026.08.14 | [github_activity_report_2026.08.10_to_2026.08.14.md](./github_activity_report_2026.08.10_to_2026.08.14.md) | 3 | 4 | 2 |
+| 1 | 2026.09.05 - 2026.09.11 | [github_activity_report_2026.09.05_to_2026.09.11.md](./github_activity_report_2026.09.05_to_2026.09.11.md) | 0 | 0 | 0 |
+| 2 | 2026.08.29 - 2026.09.04 | [github_activity_report_2026.08.29_to_2026.09.04.md](./github_activity_report_2026.08.29_to_2026.09.04.md) | 5 | 4 | 2 |
+| 3 | 2026.08.22 - 2026.08.28 | [github_activity_report_2026.08.22_to_2026.08.28.md](./github_activity_report_2026.08.22_to_2026.08.28.md) | 1 | 1 | 3 |
+| 4 | 2026.08.15 - 2026.08.21 | [github_activity_report_2026.08.15_to_2026.08.21.md](./github_activity_report_2026.08.15_to_2026.08.21.md) | 3 | 2 | 4 |
+| 5 | 2026.08.10 - 2026.08.14 | [github_activity_report_2026.08.10_to_2026.08.14.md](./github_activity_report_2026.08.10_to_2026.08.14.md) | 3 | 4 | 2 |
 
 ---
 
-*索引更新时间：2026-08-29（北京时间）*
+*索引更新时间：2026-09-05（北京时间）*

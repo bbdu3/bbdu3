@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月10日 — 2026年8月14日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：10 | **Followers**：0 | **Following**：0
+> **公开仓库数**：11 | **Followers**：0 | **Following**：0
 
 ---
 
@@ -60,7 +60,7 @@ iflytek                        ████████████████�
 | 日期 | 活动数 | 活跃度 | 主要工作 |
 |------|--------|--------|----------|
 | 2026-08-10（一） | 3 | ███░░ | PR #78 (iflytek/iFly-Skills); Issue #79; Issue #77 |
-| 2026-08-11（二） | 3 | ███░░ | PR #80 (iflytek/iFly-Skills); iflytek/iFly-Skills: fix(iflytek-hyper-tts): pass ; iflytek/iFly-Skills: fix: improve iflytek-image-un |
+| 2026-08-11（二） | 3 | ███░░ | PR #80 (iflytek/iFly-Skills); iflytek/iFly-Skills: fix: improve iflytek-image-un; iflytek/iFly-Skills: fix(iflytek-hyper-tts): pass  |
 | 2026-08-12（三） | 2 | ██░░░ | PR #83 (iflytek/iFly-Skills); Issue #82 |
 | 2026-08-13（四） | 0 | ░░░░░ | — |
 | 2026-08-14（五） | 1 | █░░░░ | Issue #841 |
@@ -141,7 +141,7 @@ iflytek                        ████████████████�
 
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
-| iflytek/iFly-Skills | 2 | 2026-08-11 | fix(iflytek-hyper-tts): pass --role argument to sy; fix: improve iflytek-image-understand WebSocket ha |
+| iflytek/iFly-Skills | 2 | 2026-08-11 | fix: improve iflytek-image-understand WebSocket ha; fix(iflytek-hyper-tts): pass --role argument to sy |
 
 ---
 
@@ -157,4 +157,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-08-29（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-09-05（北京时间） | 数据来源：GitHub Search API, Events API*
