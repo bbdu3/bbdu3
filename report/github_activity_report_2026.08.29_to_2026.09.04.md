@@ -15,10 +15,10 @@
 |------|------|
 | 涉及组织数 | **1** 个 |
 | 涉及仓库数 | **1** 个 |
-| Pull Request 数 | **5** 个（已合并 3，开放 2） |
+| Pull Request 数 | **5** 个（已合并 5，开放 0） |
 | Issue 数 | **4** 个 |
 | Commit 数 | **2** 次 |
-| 活动事件数 | **27** 次 |
+| 活动事件数 | **33** 次 |
 | 总活动量 | **11** |
 
 ### 🎯 工作重心分布
@@ -30,11 +30,10 @@ iflytek                        ████████████████�
 ### 💡 核心总结
 
 1. **iflytek** 是最大贡献方向（100%），涉及 1 个仓库，共 11 次活动。
-2. 共 **3** 个 PR 已合并，覆盖 1 个仓库。
-3. **2** 个 PR 仍在开放/Review 中。
-4. 活跃高峰出现在 **2026-09-02**（4 次活动），展现了高强度的工作节奏。
-5. 创建了 **4** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
-6. 在 1 个仓库提交了 **2** 次代码。
+2. 共 **5** 个 PR 已合并，覆盖 1 个仓库。
+3. 活跃高峰出现在 **2026-09-02**（4 次活动），展现了高强度的工作节奏。
+4. 创建了 **4** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
+5. 在 1 个仓库提交了 **2** 次代码。
 
 ### 📊 与上一周对比
 
@@ -58,14 +57,14 @@ iflytek                        ████████████████�
 | 指标 | 数量 | 说明 |
 |------|------|------|
 | 📊 **总活动** | **11** | PR + Issue + Commit |
-| 📝 **Pull Request** | 5 | 已合并 3，开放 2 |
+| 📝 **Pull Request** | 5 | 已合并 5，开放 0 |
 | 📋 **Issue** | 4 | 创建 Issue |
 | 💻 **Commit** | 2 | 代码提交 |
+| 📝 **PushEvent** | 8 | 代码推送 |
 | 🔀 **PullRequestEvent** | 8 | PR 操作 |
 | 📋 **IssuesEvent** | 8 | Issue 操作 |
 | 🌿 **CreateEvent** | 5 | 创建分支/标签 |
-| 📝 **PushEvent** | 4 | 代码推送 |
-| 🗑️ **DeleteEvent** | 1 | 删除分支 |
+| 🗑️ **DeleteEvent** | 3 | 删除分支 |
 | 🍴 **ForkEvent** | 1 | Fork |
 
 ---
@@ -110,16 +109,15 @@ Signed |
 
 | # | 仓库 | PR | 标题 | 状态 |
 |---|------|----|------|------|
-| 1 | iflytek/astron-rpa | [#860](https://github.com/iflytek/astron-rpa/pull/860) | fix:修复工作流发布同步及 MCP 工具发现链路 | ✅ 已合并 |
-| 2 | iflytek/astron-rpa | [#858](https://github.com/iflytek/astron-rpa/pull/858) | fix:对敏感信息可能进入 OpenAPI、rpa-auth 和 nginx 日志的问题进行修复 | ✅ 已合并 |
-| 3 | iflytek/astron-rpa | [#856](https://github.com/iflytek/astron-rpa/pull/856) | 修复 MCP 鉴权语义与执行记录用户隔离 | 🔒 已关闭 |
+| 1 | iflytek/astron-rpa | [#862](https://github.com/iflytek/astron-rpa/pull/862) | fix:修复公网入口明文 HTTP ,启用 HTTPS | ✅ 已合并 |
+| 2 | iflytek/astron-rpa | [#860](https://github.com/iflytek/astron-rpa/pull/860) | fix:修复工作流发布同步及 MCP 工具发现链路 | ✅ 已合并 |
+| 3 | iflytek/astron-rpa | [#858](https://github.com/iflytek/astron-rpa/pull/858) | fix:对敏感信息可能进入 OpenAPI、rpa-auth 和 nginx 日志的问题进行修复 | ✅ 已合并 |
+| 4 | iflytek/astron-rpa | [#857](https://github.com/iflytek/astron-rpa/pull/857) | fix:修复 MCP 鉴权语义与执行记录用户隔离 | ✅ 已合并 |
+| 5 | iflytek/astron-rpa | [#856](https://github.com/iflytek/astron-rpa/pull/856) | 修复 MCP 鉴权语义与执行记录用户隔离 | 🔒 已关闭 |
 
 ### 5.2 进行中 / 开放的 PR 🔄
 
-| # | 仓库 | PR | 标题 | 状态 |
-|---|------|----|------|------|
-| 1 | iflytek/astron-rpa | [#862](https://github.com/iflytek/astron-rpa/pull/862) | fix:修复公网入口明文 HTTP ,启用 HTTPS | 🔄 开放 |
-| 2 | iflytek/astron-rpa | [#857](https://github.com/iflytek/astron-rpa/pull/857) | fix:修复 MCP 鉴权语义与执行记录用户隔离 | 🔄 开放 |
+> 本周期无开放的 PR。
 
 ---
 
@@ -127,10 +125,10 @@ Signed |
 
 | # | 仓库 | Issue | 标题 | 状态 |
 |---|------|-------|------|------|
-| 1 | iflytek/astron-rpa | [#861](https://github.com/iflytek/astron-rpa/issues/861) | [Bug]: 公网入口仍使用明文HTTP，缺少 HTTPS 部署支持 | 🟢 开放 |
+| 1 | iflytek/astron-rpa | [#861](https://github.com/iflytek/astron-rpa/issues/861) | [Bug]: 公网入口仍使用明文HTTP，缺少 HTTPS 部署支持 | ✅ 已关闭 |
 | 2 | iflytek/astron-rpa | [#859](https://github.com/iflytek/astron-rpa/issues/859) | [Bug]: 发布工作流未同步至 OpenAPI，导致 MCP `tools/list` 无法发现工具 | ✅ 已关闭 |
 | 3 | iflytek/astron-rpa | [#855](https://github.com/iflytek/astron-rpa/issues/855) | [Bug]: OpenAPI、rpa-auth 和 nginx 日志存在敏感信息泄漏 | ✅ 已关闭 |
-| 4 | iflytek/astron-rpa | [#854](https://github.com/iflytek/astron-rpa/issues/854) | [Bug]: 修复 MCP 鉴权语义与执行记录用户隔离 | 🟢 开放 |
+| 4 | iflytek/astron-rpa | [#854](https://github.com/iflytek/astron-rpa/issues/854) | [Bug]: 修复 MCP 鉴权语义与执行记录用户隔离 | ✅ 已关闭 |
 
 ---
 
@@ -155,7 +153,7 @@ Signed |
 
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
-| iflytek/astron-rpa | 2 | 2026-09-03 | workflow repair (#860); fix: sanitize sensitive data in server logs (#858) |
+| iflytek/astron-rpa | 2 | 2026-09-04 | fix: sanitize sensitive data in server logs (#858); workflow repair (#860) |
 
 ---
 
@@ -171,4 +169,4 @@ Signed |
 
 ---
 
-*报告生成时间：2026-09-05（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-09-12（北京时间） | 数据来源：GitHub Search API, Events API*
