@@ -18,7 +18,7 @@
 | Pull Request 数 | **3** 个（已合并 2，开放 1） |
 | Issue 数 | **2** 个 |
 | Commit 数 | **4** 次 |
-| 活动事件数 | **23** 次 |
+| 活动事件数 | **9** 次 |
 | 总活动量 | **9** |
 
 ### 🎯 工作重心分布
@@ -62,13 +62,11 @@ iflytek                        ████████             44%
 | 📝 **Pull Request** | 3 | 已合并 2，开放 1 |
 | 📋 **Issue** | 2 | 创建 Issue |
 | 💻 **Commit** | 4 | 代码提交 |
-| 📝 **PushEvent** | 7 | 代码推送 |
-| 📋 **IssuesEvent** | 4 | Issue 操作 |
-| 🔀 **PullRequestEvent** | 4 | PR 操作 |
-| 🌿 **CreateEvent** | 3 | 创建分支/标签 |
+| 📝 **PushEvent** | 3 | 代码推送 |
+| 📋 **IssuesEvent** | 2 | Issue 操作 |
 | 🍴 **ForkEvent** | 2 | Fork |
-| 💬 **IssueCommentEvent** | 2 | Issue 评论 |
-| ⭐ **WatchEvent** | 1 | Star 收藏 |
+| 🌿 **CreateEvent** | 1 | 创建分支/标签 |
+| 🔀 **PullRequestEvent** | 1 | PR 操作 |
 
 ---
 
@@ -78,7 +76,7 @@ iflytek                        ████████             44%
 |------|--------|--------|----------|
 | 2026-08-15（六） | 0 | ░░░░░ | — |
 | 2026-08-16（日） | 0 | ░░░░░ | — |
-| **2026-08-17（一）** | **7** | ███████ | 7 项活动（bbdu3/bbdu3), iflytek/astron-rpa), bbdu3/bbdu3） |
+| **2026-08-17（一）** | **7** | ███████ | 7 项活动（bbdu3/bbdu3), bbdu3/bbdu3, iflytek/astron-rpa)） |
 | 2026-08-18（二） | 0 | ░░░░░ | — |
 | 2026-08-19（三） | 0 | ░░░░░ | — |
 | 2026-08-20（四） | 1 | █░░░░ | PR #73 (iflytek/astronclaw-tutorial) |
@@ -190,4 +188,4 @@ iflytek                        ████████             44%
 
 ---
 
-*报告生成时间：2026-09-12（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-09-19（北京时间） | 数据来源：GitHub Search API, Events API*

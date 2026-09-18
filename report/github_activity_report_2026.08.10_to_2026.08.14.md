@@ -18,7 +18,6 @@
 | Pull Request 数 | **3** 个（已合并 2，开放 1） |
 | Issue 数 | **4** 个 |
 | Commit 数 | **2** 次 |
-| 活动事件数 | **4** 次 |
 | 总活动量 | **9** |
 
 ### 🎯 工作重心分布
@@ -46,9 +45,6 @@ iflytek                        ████████████████�
 | 📝 **Pull Request** | 3 | 已合并 2，开放 1 |
 | 📋 **Issue** | 4 | 创建 Issue |
 | 💻 **Commit** | 2 | 代码提交 |
-| 📋 **IssuesEvent** | 2 | Issue 操作 |
-| 💬 **IssueCommentEvent** | 1 | Issue 评论 |
-| 🍴 **ForkEvent** | 1 | Fork |
 
 ---
 
@@ -154,4 +150,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-09-12（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-09-19（北京时间） | 数据来源：GitHub Search API, Events API*

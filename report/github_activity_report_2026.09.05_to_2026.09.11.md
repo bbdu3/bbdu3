@@ -18,7 +18,7 @@
 | Pull Request 数 | **3** 个（已合并 3，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **7** 次 |
-| 活动事件数 | **25** 次 |
+| 活动事件数 | **30** 次 |
 | 总活动量 | **10** |
 
 ### 🎯 工作重心分布
@@ -59,10 +59,10 @@ bbdu3                          ██                   10%
 | 📝 **Pull Request** | 3 | 已合并 3，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 7 | 代码提交 |
-| 📝 **PushEvent** | 11 | 代码推送 |
+| 📝 **PushEvent** | 12 | 代码推送 |
 | 🔀 **PullRequestEvent** | 9 | PR 操作 |
+| 🗑️ **DeleteEvent** | 6 | 删除分支 |
 | 🌿 **CreateEvent** | 3 | 创建分支/标签 |
-| 🗑️ **DeleteEvent** | 2 | 删除分支 |
 
 ---
 
@@ -134,8 +134,8 @@ Updated the readme to  |
   - PR #867: fix(client): preserve remote run parameter files and types
   - PR #866: fix(client): protect terminal credentials in logs and genera
   - PR #865: fix(openapi): harden workflow execution lifecycle and MCP er
-  - Commit: fix(client): preserve remote run parameter files and types (
   - Commit: fix: off-by-one error in task retry handling (#845)
+  - Commit: fix(client): protect terminal credentials in logs and genera
 
 ### bbdu3/bbdu3（1 次活动）
 
@@ -150,7 +150,7 @@ Updated the readme to  |
 
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
-| iflytek/astron-rpa | 6 | 2026-09-11 | fix(client): preserve remote run parameter files a; fix: off-by-one error in task retry handling (#845; fix(client): protect terminal credentials in logs  |
+| iflytek/astron-rpa | 6 | 2026-09-11 | fix: off-by-one error in task retry handling (#845; fix(client): protect terminal credentials in logs ; fix(openapi): harden workflow execution lifecycle  |
 | bbdu3/bbdu3 | 1 | 2026-09-07 | revise readme |
 
 ---
@@ -167,4 +167,4 @@ Updated the readme to  |
 
 ---
 
-*报告生成时间：2026-09-12（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-09-19（北京时间） | 数据来源：GitHub Search API, Events API*
