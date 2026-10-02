@@ -13,27 +13,28 @@
 
 | 维度 | 数值 |
 |------|------|
-| 涉及组织数 | **2** 个 |
-| 涉及仓库数 | **2** 个 |
+| 涉及组织数 | **3** 个 |
+| 涉及仓库数 | **3** 个 |
 | Pull Request 数 | **3** 个（已合并 3，开放 0） |
 | Issue 数 | **0** 个 |
-| Commit 数 | **7** 次 |
+| Commit 数 | **13** 次 |
 | 活动事件数 | **30** 次 |
-| 总活动量 | **10** |
+| 总活动量 | **16** |
 
 ### 🎯 工作重心分布
 
 ```
-iflytek                        ██████████████████   90%
-bbdu3                          ██                   10%
+iflytek                        ███████████          56%
+luxi233                        ███████              38%
+bbdu3                          █                    6%
 ```
 
 ### 💡 核心总结
 
-1. **iflytek** 是最大贡献方向（90%），涉及 1 个仓库，共 9 次活动。
+1. **iflytek** 是最大贡献方向（56%），涉及 1 个仓库，共 9 次活动。
 2. 共 **3** 个 PR 已合并，覆盖 1 个仓库。
-3. 活跃高峰出现在 **2026-09-11**（6 次活动），展现了高强度的工作节奏。
-4. 在 2 个仓库提交了 **7** 次代码。
+3. 活跃高峰出现在 **2026-09-11**（12 次活动），展现了高强度的工作节奏。
+4. 在 3 个仓库提交了 **13** 次代码。
 
 ### 📊 与上一周对比
 
@@ -41,10 +42,10 @@ bbdu3                          ██                   10%
 
 | 指标 | 上周 | 本周 | 变化 | 趋势 |
 |------|--------|--------|------|------|
-| **总活动量** | 11 | **10** | -9% | 📉 -1 |
+| **总活动量** | 13 | **16** | +23% | 📈 +3 |
 | Pull Request | 5 | 3 | -40% | 📉 -2 |
 | Issue | 4 | 0 | -100% | 📉 -4 |
-| Commit | 2 | 7 | +250% | 📈 +5 |
+| Commit | 4 | 13 | +225% | 📈 +9 |
 
 - 🆕 **新增活跃仓库**：`bbdu3/bbdu3`
 - ✅ **工作重心稳定**：继续聚焦 **iflytek**
@@ -55,10 +56,10 @@ bbdu3                          ██                   10%
 
 | 指标 | 数量 | 说明 |
 |------|------|------|
-| 📊 **总活动** | **10** | PR + Issue + Commit |
+| 📊 **总活动** | **16** | PR + Issue + Commit |
 | 📝 **Pull Request** | 3 | 已合并 3，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
-| 💻 **Commit** | 7 | 代码提交 |
+| 💻 **Commit** | 13 | 代码提交 |
 | 📝 **PushEvent** | 12 | 代码推送 |
 | 🔀 **PullRequestEvent** | 9 | PR 操作 |
 | 🗑️ **DeleteEvent** | 6 | 删除分支 |
@@ -78,9 +79,9 @@ Updated the readme to  |
 | 2026-09-08（二） | 0 | ░░░░░ | — |
 | 2026-09-09（三） | 3 | ███░░ | PR #867 (iflytek/astron-rpa); PR #866 (iflytek/astron-rpa); PR #865 (iflytek/astron-rpa) |
 | 2026-09-10（四） | 0 | ░░░░░ | — |
-| **2026-09-11（五）** | **6** | ██████ | 6 项活动（iflytek/astron-rpa） |
+| **2026-09-11（五）** | **12** | ████████████ | 12 项活动（iflytek/astron-rpa, luxi233/astron-rpa） |
 
-> **活跃高峰**：2026-09-11（6 次活动）为最高峰。
+> **活跃高峰**：2026-09-11（12 次活动）为最高峰。
 
 ---
 
@@ -90,15 +91,17 @@ Updated the readme to  |
 
 | 组织 | 活动数 | 占比 | 核心仓库 | 贡献类型 |
 |------|--------|------|----------|----------|
-| **iflytek** | 9 | 90.0% | iflytek/astron-rpa(9) | PR, Push |
-| bbdu3 | 1 | 10.0% | bbdu3/bbdu3(1) | Push |
+| **iflytek** | 9 | 56.2% | iflytek/astron-rpa(9) | PR, Push |
+| **luxi233** | 6 | 37.5% | luxi233/astron-rpa(6) | Push |
+| bbdu3 | 1 | 6.2% | bbdu3/bbdu3(1) | Push |
 
 ### 4.2 仓库详细 Top 10
 
 | 排名 | 仓库 | 活动数 | PR数 | Issue数 | Commit数 | 关键工作 |
 |------|------|--------|------|---------|---------|----------|
 | 1 | **iflytek/astron-rpa** | 9 | 3 | 0 | 6 | PR #867: fix(client): preserve remote run paramete; PR #866: fix(client): protect terminal credentials; PR #865: fix(openapi): harden workflow execution l |
-| 2 | **bbdu3/bbdu3** | 1 | 0 | 0 | 1 | Commit: revise readme |
+| 2 | **luxi233/astron-rpa** | 6 | 0 | 0 | 6 | Commit: fix: off-by-one error in task retry handli; Commit: fix(client): preserve remote run parameter; Commit: fix(client): protect terminal credentials  |
+| 3 | **bbdu3/bbdu3** | 1 | 0 | 0 | 1 | Commit: revise readme |
 
 ---
 
@@ -137,6 +140,16 @@ Updated the readme to  |
   - Commit: fix: off-by-one error in task retry handling (#845)
   - Commit: fix(client): protect terminal credentials in logs and genera
 
+### luxi233/astron-rpa（6 次活动）
+
+- **Commit**: 6 次
+- **主要工作**:
+  - Commit: fix: off-by-one error in task retry handling (#845)
+  - Commit: fix(client): preserve remote run parameter files and types (
+  - Commit: fix(client): protect terminal credentials in logs and genera
+  - Commit: fix(openapi): harden workflow execution lifecycle and MCP er
+  - Commit: fix: enable HTTPS for public endpoints (#862)
+
 ### bbdu3/bbdu3（1 次活动）
 
 - **Commit**: 1 次
@@ -151,6 +164,7 @@ Updated the readme to  |
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
 | iflytek/astron-rpa | 6 | 2026-09-11 | fix: off-by-one error in task retry handling (#845; fix(client): protect terminal credentials in logs ; fix(openapi): harden workflow execution lifecycle  |
+| luxi233/astron-rpa | 6 | 2026-09-11 | fix: off-by-one error in task retry handling (#845; fix(client): preserve remote run parameter files a; fix(client): protect terminal credentials in logs  |
 | bbdu3/bbdu3 | 1 | 2026-09-07 | revise readme |
 
 ---
@@ -167,4 +181,4 @@ Updated the readme to  |
 
 ---
 
-*报告生成时间：2026-09-26（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-03（北京时间） | 数据来源：GitHub Search API, Events API*

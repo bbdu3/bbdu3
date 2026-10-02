@@ -13,27 +13,28 @@
 
 | 维度 | 数值 |
 |------|------|
-| 涉及组织数 | **1** 个 |
-| 涉及仓库数 | **1** 个 |
+| 涉及组织数 | **2** 个 |
+| 涉及仓库数 | **2** 个 |
 | Pull Request 数 | **5** 个（已合并 5，开放 0） |
 | Issue 数 | **4** 个 |
-| Commit 数 | **2** 次 |
-| 活动事件数 | **33** 次 |
-| 总活动量 | **11** |
+| Commit 数 | **4** 次 |
+| 活动事件数 | **19** 次 |
+| 总活动量 | **13** |
 
 ### 🎯 工作重心分布
 
 ```
-iflytek                        ████████████████████ 100%
+iflytek                        ████████████████     85%
+luxi233                        ███                  15%
 ```
 
 ### 💡 核心总结
 
-1. **iflytek** 是最大贡献方向（100%），涉及 1 个仓库，共 11 次活动。
+1. **iflytek** 是最大贡献方向（85%），涉及 1 个仓库，共 11 次活动。
 2. 共 **5** 个 PR 已合并，覆盖 1 个仓库。
-3. 活跃高峰出现在 **2026-09-02**（4 次活动），展现了高强度的工作节奏。
+3. 活跃高峰出现在 **2026-09-03**（4 次活动），展现了高强度的工作节奏。
 4. 创建了 **4** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
-5. 在 1 个仓库提交了 **2** 次代码。
+5. 在 2 个仓库提交了 **4** 次代码。
 
 ### 📊 与上一周对比
 
@@ -41,12 +42,12 @@ iflytek                        ████████████████�
 
 | 指标 | 上周 | 本周 | 变化 | 趋势 |
 |------|--------|--------|------|------|
-| **总活动量** | 5 | **11** | +120% | 📈 +6 |
+| **总活动量** | 5 | **13** | +160% | 📈 +8 |
 | Pull Request | 1 | 5 | +400% | 📈 +4 |
 | Issue | 1 | 4 | +300% | 📈 +3 |
-| Commit | 3 | 2 | -33% | 📉 -1 |
+| Commit | 3 | 4 | +33% | 📈 +1 |
 
-- 🆕 **新增活跃仓库**：`iflytek/astron-rpa`
+- 🆕 **新增活跃仓库**：`iflytek/astron-rpa`, `luxi233/astron-rpa`
 - ❌ **不再活跃的仓库**：`hnxtcloud/astronhub`, `iflytek/skillhub`, `tellbom/skillhub`
 - ✅ **工作重心稳定**：继续聚焦 **iflytek**
 
@@ -56,16 +57,15 @@ iflytek                        ████████████████�
 
 | 指标 | 数量 | 说明 |
 |------|------|------|
-| 📊 **总活动** | **11** | PR + Issue + Commit |
+| 📊 **总活动** | **13** | PR + Issue + Commit |
 | 📝 **Pull Request** | 5 | 已合并 5，开放 0 |
 | 📋 **Issue** | 4 | 创建 Issue |
-| 💻 **Commit** | 2 | 代码提交 |
-| 📝 **PushEvent** | 8 | 代码推送 |
-| 🔀 **PullRequestEvent** | 8 | PR 操作 |
-| 📋 **IssuesEvent** | 8 | Issue 操作 |
-| 🌿 **CreateEvent** | 5 | 创建分支/标签 |
+| 💻 **Commit** | 4 | 代码提交 |
+| 📝 **PushEvent** | 7 | 代码推送 |
+| 🌿 **CreateEvent** | 4 | 创建分支/标签 |
 | 🗑️ **DeleteEvent** | 3 | 删除分支 |
-| 🍴 **ForkEvent** | 1 | Fork |
+| 🔀 **PullRequestEvent** | 3 | PR 操作 |
+| 📋 **IssuesEvent** | 2 | Issue 操作 |
 
 ---
 
@@ -78,12 +78,10 @@ iflytek                        ████████████████�
 | 2026-08-31（一） | 0 | ░░░░░ | — |
 | 2026-09-01（二） | 3 | ███░░ | PR #856 (iflytek/astron-rpa); Issue #855; Issue #854 |
 | 2026-09-02（三） | 4 | ████░ | 4 项活动（iflytek/astron-rpa)） |
-| 2026-09-03（四） | 3 | ███░░ | PR #862 (iflytek/astron-rpa); Issue #861; iflytek/astron-rpa: workflow repair (#860)
+| 2026-09-03（四） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, luxi233/astron-rpa, iflytek/astron-rpa)） |
+| 2026-09-04（五） | 2 | ██░░░ | iflytek/astron-rpa: fix: sanitize sensitive data i; luxi233/astron-rpa: fix: sanitize sensitive data i |
 
-Signed |
-| 2026-09-04（五） | 1 | █░░░░ | iflytek/astron-rpa: fix: sanitize sensitive data i |
-
-> **活跃高峰**：2026-09-02（4 次活动）为最高峰。
+> **活跃高峰**：2026-09-03（4 次活动）为最高峰。
 
 ---
 
@@ -93,13 +91,15 @@ Signed |
 
 | 组织 | 活动数 | 占比 | 核心仓库 | 贡献类型 |
 |------|--------|------|----------|----------|
-| **iflytek** | 11 | 100.0% | iflytek/astron-rpa(11) | Issue, PR, Push |
+| **iflytek** | 11 | 84.6% | iflytek/astron-rpa(11) | Issue, PR, Push |
+| luxi233 | 2 | 15.4% | luxi233/astron-rpa(2) | Push |
 
 ### 4.2 仓库详细 Top 10
 
 | 排名 | 仓库 | 活动数 | PR数 | Issue数 | Commit数 | 关键工作 |
 |------|------|--------|------|---------|---------|----------|
 | 1 | **iflytek/astron-rpa** | 11 | 5 | 4 | 2 | PR #862: fix:修复公网入口明文 HTTP ,启用 HTTPS; PR #860: fix:修复工作流发布同步及 MCP 工具发现链路; PR #858: fix:对敏感信息可能进入 OpenAPI、rpa-auth 和 nginx 日志 |
+| 2 | **luxi233/astron-rpa** | 2 | 0 | 0 | 2 | Commit: fix: sanitize sensitive data in server log; Commit: workflow repair (#860) |
 
 ---
 
@@ -146,6 +146,13 @@ Signed |
   - PR #857: fix:修复 MCP 鉴权语义与执行记录用户隔离
   - PR #856: 修复 MCP 鉴权语义与执行记录用户隔离
 
+### luxi233/astron-rpa（2 次活动）
+
+- **Commit**: 2 次
+- **主要工作**:
+  - Commit: fix: sanitize sensitive data in server logs (#858)
+  - Commit: workflow repair (#860)
+
 
 ---
 
@@ -154,6 +161,7 @@ Signed |
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
 | iflytek/astron-rpa | 2 | 2026-09-04 | fix: sanitize sensitive data in server logs (#858); workflow repair (#860) |
+| luxi233/astron-rpa | 2 | 2026-09-04 | fix: sanitize sensitive data in server logs (#858); workflow repair (#860) |
 
 ---
 
@@ -169,4 +177,4 @@ Signed |
 
 ---
 
-*报告生成时间：2026-09-26（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-03（北京时间） | 数据来源：GitHub Search API, Events API*

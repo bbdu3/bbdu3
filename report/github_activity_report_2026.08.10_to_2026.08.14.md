@@ -15,7 +15,7 @@
 |------|------|
 | 涉及组织数 | **1** 个 |
 | 涉及仓库数 | **2** 个 |
-| Pull Request 数 | **3** 个（已合并 2，开放 1） |
+| Pull Request 数 | **3** 个（已合并 3，开放 0） |
 | Issue 数 | **4** 个 |
 | Commit 数 | **2** 次 |
 | 总活动量 | **9** |
@@ -29,11 +29,10 @@ iflytek                        ████████████████�
 ### 💡 核心总结
 
 1. **iflytek** 是最大贡献方向（100%），涉及 2 个仓库，共 9 次活动。
-2. 共 **2** 个 PR 已合并，覆盖 1 个仓库。
-3. **1** 个 PR 仍在开放/Review 中。
-4. 活跃高峰出现在 **2026-08-11**（3 次活动），展现了高强度的工作节奏。
-5. 创建了 **4** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
-6. 在 1 个仓库提交了 **2** 次代码。
+2. 共 **3** 个 PR 已合并，覆盖 1 个仓库。
+3. 活跃高峰出现在 **2026-08-11**（3 次活动），展现了高强度的工作节奏。
+4. 创建了 **4** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
+5. 在 1 个仓库提交了 **2** 次代码。
 
 ---
 
@@ -42,7 +41,7 @@ iflytek                        ████████████████�
 | 指标 | 数量 | 说明 |
 |------|------|------|
 | 📊 **总活动** | **9** | PR + Issue + Commit |
-| 📝 **Pull Request** | 3 | 已合并 2，开放 1 |
+| 📝 **Pull Request** | 3 | 已合并 3，开放 0 |
 | 📋 **Issue** | 4 | 创建 Issue |
 | 💻 **Commit** | 2 | 代码提交 |
 
@@ -85,14 +84,13 @@ iflytek                        ████████████████�
 
 | # | 仓库 | PR | 标题 | 状态 |
 |---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#80](https://github.com/iflytek/iFly-Skills/pull/80) | fix: improve iflytek-image-understand WebSocket handling and validatio | ✅ 已合并 |
-| 2 | iflytek/iFly-Skills | [#78](https://github.com/iflytek/iFly-Skills/pull/78) | fix(iflytek-hyper-tts): forward `--role` to `synthesize` | ✅ 已合并 |
+| 1 | iflytek/iFly-Skills | [#83](https://github.com/iflytek/iFly-Skills/pull/83) | Fix runtime reliability issues in `voiceclone-tts` and `speed-transcri | ✅ 已合并 |
+| 2 | iflytek/iFly-Skills | [#80](https://github.com/iflytek/iFly-Skills/pull/80) | fix: improve iflytek-image-understand WebSocket handling and validatio | ✅ 已合并 |
+| 3 | iflytek/iFly-Skills | [#78](https://github.com/iflytek/iFly-Skills/pull/78) | fix(iflytek-hyper-tts): forward `--role` to `synthesize` | ✅ 已合并 |
 
 ### 5.2 进行中 / 开放的 PR 🔄
 
-| # | 仓库 | PR | 标题 | 状态 |
-|---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#83](https://github.com/iflytek/iFly-Skills/pull/83) | Fix runtime reliability issues in `voiceclone-tts` and `speed-transcri | 🔄 开放 |
+> 本周期无开放的 PR。
 
 ---
 
@@ -101,7 +99,7 @@ iflytek                        ████████████████�
 | # | 仓库 | Issue | 标题 | 状态 |
 |---|------|-------|------|------|
 | 1 | iflytek/astron-rpa | [#841](https://github.com/iflytek/astron-rpa/issues/841) | [Bug]: `calculate_expiration_date` 对无时区 `reference_date` 存在时区偏移风险 | 🟢 开放 |
-| 2 | iflytek/iFly-Skills | [#82](https://github.com/iflytek/iFly-Skills/issues/82) | Fix:  reliability issues in `voiceclone-tts` and `speed-transcription` | 🟢 开放 |
+| 2 | iflytek/iFly-Skills | [#82](https://github.com/iflytek/iFly-Skills/issues/82) | Fix:  reliability issues in `voiceclone-tts` and `speed-transcription` | ✅ 已关闭 |
 | 3 | iflytek/iFly-Skills | [#79](https://github.com/iflytek/iFly-Skills/issues/79) | Fix: iflytek-image-understanding does not fully handle WebSocket proto | ✅ 已关闭 |
 | 4 | iflytek/iFly-Skills | [#77](https://github.com/iflytek/iFly-Skills/issues/77) | Fix(iflytek-hyper-tts): `--role`参数解析后未传递给 `synthesize`，导致用户设置被静默忽略 | ✅ 已关闭 |
 
@@ -150,4 +148,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-09-26（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-03（北京时间） | 数据来源：GitHub Search API, Events API*

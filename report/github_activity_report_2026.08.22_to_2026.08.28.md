@@ -18,7 +18,6 @@
 | Pull Request 数 | **1** 个（已合并 1，开放 0） |
 | Issue 数 | **1** 个 |
 | Commit 数 | **3** 次 |
-| 活动事件数 | **2** 次 |
 | 总活动量 | **5** |
 
 ### 🎯 工作重心分布
@@ -62,8 +61,6 @@ hnxtcloud                      ████                 20%
 | 📝 **Pull Request** | 1 | 已合并 1，开放 0 |
 | 📋 **Issue** | 1 | 创建 Issue |
 | 💻 **Commit** | 3 | 代码提交 |
-| 🗑️ **DeleteEvent** | 1 | 删除分支 |
-| 🍴 **ForkEvent** | 1 | Fork |
 
 ---
 
@@ -174,4 +171,4 @@ hnxtcloud                      ████                 20%
 
 ---
 
-*报告生成时间：2026-09-26（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-03（北京时间） | 数据来源：GitHub Search API, Events API*
