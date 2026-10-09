@@ -18,7 +18,6 @@
 | Pull Request 数 | **5** 个（已合并 5，开放 0） |
 | Issue 数 | **4** 个 |
 | Commit 数 | **4** 次 |
-| 活动事件数 | **19** 次 |
 | 总活动量 | **13** |
 
 ### 🎯 工作重心分布
@@ -61,11 +60,6 @@ luxi233                        ███                  15%
 | 📝 **Pull Request** | 5 | 已合并 5，开放 0 |
 | 📋 **Issue** | 4 | 创建 Issue |
 | 💻 **Commit** | 4 | 代码提交 |
-| 📝 **PushEvent** | 7 | 代码推送 |
-| 🌿 **CreateEvent** | 4 | 创建分支/标签 |
-| 🗑️ **DeleteEvent** | 3 | 删除分支 |
-| 🔀 **PullRequestEvent** | 3 | PR 操作 |
-| 📋 **IssuesEvent** | 2 | Issue 操作 |
 
 ---
 
@@ -78,7 +72,7 @@ luxi233                        ███                  15%
 | 2026-08-31（一） | 0 | ░░░░░ | — |
 | 2026-09-01（二） | 3 | ███░░ | PR #856 (iflytek/astron-rpa); Issue #855; Issue #854 |
 | 2026-09-02（三） | 4 | ████░ | 4 项活动（iflytek/astron-rpa)） |
-| 2026-09-03（四） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, luxi233/astron-rpa, iflytek/astron-rpa)） |
+| 2026-09-03（四） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, iflytek/astron-rpa), luxi233/astron-rpa） |
 | 2026-09-04（五） | 2 | ██░░░ | iflytek/astron-rpa: fix: sanitize sensitive data i; luxi233/astron-rpa: fix: sanitize sensitive data i |
 
 > **活跃高峰**：2026-09-03（4 次活动）为最高峰。
@@ -177,4 +171,4 @@ luxi233                        ███                  15%
 
 ---
 
-*报告生成时间：2026-10-03（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-10（北京时间） | 数据来源：GitHub Search API, Events API*
