@@ -3,7 +3,7 @@
 > **统计周期**：2026年10月3日 — 2026年10月9日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：1
+> **公开仓库数**：11 | **Followers**：0 | **Following**：2
 
 ---
 
@@ -15,10 +15,10 @@
 |------|------|
 | 涉及组织数 | **1** 个 |
 | 涉及仓库数 | **1** 个 |
-| Pull Request 数 | **2** 个（已合并 1，开放 1） |
+| Pull Request 数 | **2** 个（已合并 2，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **1** 次 |
-| 活动事件数 | **13** 次 |
+| 活动事件数 | **14** 次 |
 | 总活动量 | **3** |
 
 ### 🎯 工作重心分布
@@ -30,10 +30,9 @@ iflytek                        ████████████████�
 ### 💡 核心总结
 
 1. **iflytek** 是最大贡献方向（100%），涉及 1 个仓库，共 3 次活动。
-2. 共 **1** 个 PR 已合并，覆盖 1 个仓库。
-3. **1** 个 PR 仍在开放/Review 中。
-4. 活跃高峰出现在 **2026-10-08**（2 次活动），展现了高强度的工作节奏。
-5. 在 1 个仓库提交了 **1** 次代码。
+2. 共 **2** 个 PR 已合并，覆盖 1 个仓库。
+3. 活跃高峰出现在 **2026-10-08**（2 次活动），展现了高强度的工作节奏。
+4. 在 1 个仓库提交了 **1** 次代码。
 
 ### 📊 与上一周对比
 
@@ -56,10 +55,10 @@ iflytek                        ████████████████�
 | 指标 | 数量 | 说明 |
 |------|------|------|
 | 📊 **总活动** | **3** | PR + Issue + Commit |
-| 📝 **Pull Request** | 2 | 已合并 1，开放 1 |
+| 📝 **Pull Request** | 2 | 已合并 2，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 1 | 代码提交 |
-| 📝 **PushEvent** | 6 | 代码推送 |
+| 📝 **PushEvent** | 7 | 代码推送 |
 | 🔀 **PullRequestEvent** | 3 | PR 操作 |
 | 🌿 **CreateEvent** | 2 | 创建分支/标签 |
 | 🗑️ **DeleteEvent** | 1 | 删除分支 |
@@ -95,7 +94,7 @@ iflytek                        ████████████████�
 
 | 排名 | 仓库 | 活动数 | PR数 | Issue数 | Commit数 | 关键工作 |
 |------|------|--------|------|---------|---------|----------|
-| 1 | **iflytek/iFly-Skills** | 3 | 2 | 0 | 1 | PR #112: npm release checks; PR #110: fix(n8n):fix the language specification o; Commit: fix(n8n):fix the language specification of |
+| 1 | **iflytek/iFly-Skills** | 3 | 2 | 0 | 1 | PR #112: feat(n8n): npm release checks; PR #110: fix(n8n):fix the language specification o; Commit: fix(n8n):fix the language specification of |
 
 ---
 
@@ -105,13 +104,12 @@ iflytek                        ████████████████�
 
 | # | 仓库 | PR | 标题 | 状态 |
 |---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#110](https://github.com/iflytek/iFly-Skills/pull/110) | fix(n8n):fix the language specification of npm packages | ✅ 已合并 |
+| 1 | iflytek/iFly-Skills | [#112](https://github.com/iflytek/iFly-Skills/pull/112) | feat(n8n): npm release checks | ✅ 已合并 |
+| 2 | iflytek/iFly-Skills | [#110](https://github.com/iflytek/iFly-Skills/pull/110) | fix(n8n):fix the language specification of npm packages | ✅ 已合并 |
 
 ### 5.2 进行中 / 开放的 PR 🔄
 
-| # | 仓库 | PR | 标题 | 状态 |
-|---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#112](https://github.com/iflytek/iFly-Skills/pull/112) | npm release checks | 🔄 开放 |
+> 本周期无开放的 PR。
 
 ---
 
@@ -128,7 +126,7 @@ iflytek                        ████████████████�
 - **PR**: 2 个
 - **Commit**: 1 次
 - **主要工作**:
-  - PR #112: npm release checks
+  - PR #112: feat(n8n): npm release checks
   - PR #110: fix(n8n):fix the language specification of npm packages
   - Commit: fix(n8n):fix the language specification of npm packages (#11
 
@@ -155,4 +153,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-10（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*

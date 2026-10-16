@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月29日 — 2026年9月4日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：1
+> **公开仓库数**：11 | **Followers**：0 | **Following**：2
 
 ---
 
@@ -72,7 +72,7 @@ luxi233                        ███                  15%
 | 2026-08-31（一） | 0 | ░░░░░ | — |
 | 2026-09-01（二） | 3 | ███░░ | PR #856 (iflytek/astron-rpa); Issue #855; Issue #854 |
 | 2026-09-02（三） | 4 | ████░ | 4 项活动（iflytek/astron-rpa)） |
-| 2026-09-03（四） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, iflytek/astron-rpa), luxi233/astron-rpa） |
+| 2026-09-03（四） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, luxi233/astron-rpa, iflytek/astron-rpa)） |
 | 2026-09-04（五） | 2 | ██░░░ | iflytek/astron-rpa: fix: sanitize sensitive data i; luxi233/astron-rpa: fix: sanitize sensitive data i |
 
 > **活跃高峰**：2026-09-03（4 次活动）为最高峰。
@@ -171,4 +171,4 @@ luxi233                        ███                  15%
 
 ---
 
-*报告生成时间：2026-10-10（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*

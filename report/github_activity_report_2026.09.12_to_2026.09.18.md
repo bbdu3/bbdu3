@@ -3,7 +3,7 @@
 > **统计周期**：2026年9月12日 — 2026年9月18日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：1
+> **公开仓库数**：11 | **Followers**：0 | **Following**：2
 
 ---
 
@@ -15,10 +15,10 @@
 |------|------|
 | 涉及组织数 | **2** 个 |
 | 涉及仓库数 | **2** 个 |
-| Pull Request 数 | **5** 个（已合并 4，开放 1） |
+| Pull Request 数 | **5** 个（已合并 5，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **2** 次 |
-| 活动事件数 | **20** 次 |
+| 活动事件数 | **9** 次 |
 | 总活动量 | **7** |
 
 ### 🎯 工作重心分布
@@ -31,10 +31,9 @@ luxi233                        ██                   14%
 ### 💡 核心总结
 
 1. **iflytek** 是最大贡献方向（86%），涉及 1 个仓库，共 6 次活动。
-2. 共 **4** 个 PR 已合并，覆盖 1 个仓库。
-3. **1** 个 PR 仍在开放/Review 中。
-4. 活跃高峰出现在 **2026-09-14**（2 次活动），展现了高强度的工作节奏。
-5. 在 2 个仓库提交了 **2** 次代码。
+2. 共 **5** 个 PR 已合并，覆盖 1 个仓库。
+3. 活跃高峰出现在 **2026-09-14**（2 次活动），展现了高强度的工作节奏。
+4. 在 2 个仓库提交了 **2** 次代码。
 
 ### 📊 与上一周对比
 
@@ -57,13 +56,12 @@ luxi233                        ██                   14%
 | 指标 | 数量 | 说明 |
 |------|------|------|
 | 📊 **总活动** | **7** | PR + Issue + Commit |
-| 📝 **Pull Request** | 5 | 已合并 4，开放 1 |
+| 📝 **Pull Request** | 5 | 已合并 5，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 2 | 代码提交 |
-| 🔀 **PullRequestEvent** | 10 | PR 操作 |
-| 🌿 **CreateEvent** | 5 | 创建分支/标签 |
-| 📝 **PushEvent** | 4 | 代码推送 |
-| 🗑️ **DeleteEvent** | 1 | 删除分支 |
+| 🔀 **PullRequestEvent** | 4 | PR 操作 |
+| 📝 **PushEvent** | 3 | 代码推送 |
+| 🌿 **CreateEvent** | 2 | 创建分支/标签 |
 
 ---
 
@@ -107,16 +105,15 @@ luxi233                        ██                   14%
 
 | # | 仓库 | PR | 标题 | 状态 |
 |---|------|----|------|------|
-| 1 | iflytek/astron-rpa | [#875](https://github.com/iflytek/astron-rpa/pull/875) | feat(n8n): Added MCP-based AstronRPA Community Node public framework | ✅ 已合并 |
-| 2 | iflytek/astron-rpa | [#871](https://github.com/iflytek/astron-rpa/pull/871) | feat(execution): add durable MCP execution management with idempotency | ✅ 已合并 |
-| 3 | iflytek/astron-rpa | [#870](https://github.com/iflytek/astron-rpa/pull/870) | fix(integration): harden external authentication and HTTPS transport | 🔒 已关闭 |
-| 4 | iflytek/astron-rpa | [#869](https://github.com/iflytek/astron-rpa/pull/869) | feat(openapi): add asynchronous MCP workflow control tools | 🔒 已关闭 |
+| 1 | iflytek/astron-rpa | [#876](https://github.com/iflytek/astron-rpa/pull/876) | feat(n8n): Support for JSON and data-type workflow integration | ✅ 已合并 |
+| 2 | iflytek/astron-rpa | [#875](https://github.com/iflytek/astron-rpa/pull/875) | feat(n8n): Added MCP-based AstronRPA Community Node public framework | ✅ 已合并 |
+| 3 | iflytek/astron-rpa | [#871](https://github.com/iflytek/astron-rpa/pull/871) | feat(execution): add durable MCP execution management with idempotency | ✅ 已合并 |
+| 4 | iflytek/astron-rpa | [#870](https://github.com/iflytek/astron-rpa/pull/870) | fix(integration): harden external authentication and HTTPS transport | 🔒 已关闭 |
+| 5 | iflytek/astron-rpa | [#869](https://github.com/iflytek/astron-rpa/pull/869) | feat(openapi): add asynchronous MCP workflow control tools | 🔒 已关闭 |
 
 ### 5.2 进行中 / 开放的 PR 🔄
 
-| # | 仓库 | PR | 标题 | 状态 |
-|---|------|----|------|------|
-| 1 | iflytek/astron-rpa | [#876](https://github.com/iflytek/astron-rpa/pull/876) | feat(n8n): Support for JSON and data-type workflow integration | 🔄 开放 |
+> 本周期无开放的 PR。
 
 ---
 
@@ -169,4 +166,4 @@ luxi233                        ██                   14%
 
 ---
 
-*报告生成时间：2026-10-10（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*

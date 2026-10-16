@@ -3,7 +3,7 @@
 > **统计周期**：2026年9月5日 — 2026年9月11日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：1
+> **公开仓库数**：11 | **Followers**：0 | **Following**：2
 
 ---
 
@@ -18,7 +18,6 @@
 | Pull Request 数 | **3** 个（已合并 3，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **13** 次 |
-| 活动事件数 | **19** 次 |
 | 总活动量 | **16** |
 
 ### 🎯 工作重心分布
@@ -60,10 +59,6 @@ bbdu3                          █                    6%
 | 📝 **Pull Request** | 3 | 已合并 3，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 13 | 代码提交 |
-| 🗑️ **DeleteEvent** | 6 | 删除分支 |
-| 📝 **PushEvent** | 6 | 代码推送 |
-| 🔀 **PullRequestEvent** | 6 | PR 操作 |
-| 🌿 **CreateEvent** | 1 | 创建分支/标签 |
 
 ---
 
@@ -181,4 +176,4 @@ Updated the readme to  |
 
 ---
 
-*报告生成时间：2026-10-10（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*

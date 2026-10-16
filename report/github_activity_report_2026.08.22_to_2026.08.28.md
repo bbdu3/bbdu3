@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月22日 — 2026年8月28日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：1
+> **公开仓库数**：11 | **Followers**：0 | **Following**：2
 
 ---
 
@@ -171,4 +171,4 @@ hnxtcloud                      ████                 20%
 
 ---
 
-*报告生成时间：2026-10-10（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*
