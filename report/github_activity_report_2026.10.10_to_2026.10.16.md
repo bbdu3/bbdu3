@@ -15,27 +15,26 @@
 |------|------|
 | 涉及组织数 | **2** 个 |
 | 涉及仓库数 | **3** 个 |
-| Pull Request 数 | **3** 个（已合并 2，开放 1） |
+| Pull Request 数 | **3** 个（已合并 3，开放 0） |
 | Issue 数 | **1** 个 |
-| Commit 数 | **4** 次 |
+| Commit 数 | **7** 次 |
 | 活动事件数 | **27** 次 |
-| 总活动量 | **8** |
+| 总活动量 | **11** |
 
 ### 🎯 工作重心分布
 
 ```
-iflytek                        █████████████████    88%
-airockchip                     ██                   12%
+iflytek                        ██████████████████   91%
+airockchip                     █                    9%
 ```
 
 ### 💡 核心总结
 
-1. **iflytek** 是最大贡献方向（88%），涉及 2 个仓库，共 7 次活动。
-2. 共 **2** 个 PR 已合并，覆盖 1 个仓库。
-3. **1** 个 PR 仍在开放/Review 中。
-4. 活跃高峰出现在 **2026-10-14**（3 次活动），展现了高强度的工作节奏。
-5. 创建了 **1** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
-6. 在 2 个仓库提交了 **4** 次代码。
+1. **iflytek** 是最大贡献方向（91%），涉及 2 个仓库，共 10 次活动。
+2. 共 **3** 个 PR 已合并，覆盖 1 个仓库。
+3. 活跃高峰出现在 **2026-10-10**（4 次活动），展现了高强度的工作节奏。
+4. 创建了 **1** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
+5. 在 2 个仓库提交了 **7** 次代码。
 
 ### 📊 与上一周对比
 
@@ -43,10 +42,10 @@ airockchip                     ██                   12%
 
 | 指标 | 上周 | 本周 | 变化 | 趋势 |
 |------|--------|--------|------|------|
-| **总活动量** | 3 | **8** | +167% | 📈 +5 |
+| **总活动量** | 3 | **11** | +267% | 📈 +8 |
 | Pull Request | 2 | 3 | +50% | 📈 +1 |
 | Issue | 0 | 1 | 🆕 新增 | 📈 +1 |
-| Commit | 1 | 4 | +300% | 📈 +3 |
+| Commit | 1 | 7 | +600% | 📈 +6 |
 
 - 🆕 **新增活跃仓库**：`airockchip/rknn-llm`, `iflytek/astron-rpa`
 - ✅ **工作重心稳定**：继续聚焦 **iflytek**
@@ -57,10 +56,10 @@ airockchip                     ██                   12%
 
 | 指标 | 数量 | 说明 |
 |------|------|------|
-| 📊 **总活动** | **8** | PR + Issue + Commit |
-| 📝 **Pull Request** | 3 | 已合并 2，开放 1 |
+| 📊 **总活动** | **11** | PR + Issue + Commit |
+| 📝 **Pull Request** | 3 | 已合并 3，开放 0 |
 | 📋 **Issue** | 1 | 创建 Issue |
-| 💻 **Commit** | 4 | 代码提交 |
+| 💻 **Commit** | 7 | 代码提交 |
 | 🔀 **PullRequestEvent** | 9 | PR 操作 |
 | 💬 **IssueCommentEvent** | 5 | Issue 评论 |
 | 📝 **PushEvent** | 5 | 代码推送 |
@@ -74,15 +73,17 @@ airockchip                     ██                   12%
 
 | 日期 | 活动数 | 活跃度 | 主要工作 |
 |------|--------|--------|----------|
-| 2026-10-10（六） | 2 | ██░░░ | PR #113 (iflytek/iFly-Skills); iflytek/astron-rpa: feat(n8n): Support for JSON an |
+| 2026-10-10（六） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, iflytek/iFly-Skills)） |
 | 2026-10-11（日） | 0 | ░░░░░ | — |
-| 2026-10-12（一） | 0 | ░░░░░ | — |
+| 2026-10-12（一） | 1 | █░░░░ | iflytek/astron-rpa: supplement CI process
+
+Signed- |
 | 2026-10-13（二） | 3 | ███░░ | PR #115 (iflytek/iFly-Skills); iflytek/iFly-Skills: feat(Coze): Add Coze integrat; iflytek/iFly-Skills: feat(n8n): npm release checks |
 | 2026-10-14（三） | 3 | ███░░ | PR #116 (iflytek/iFly-Skills); Issue #537; iflytek/iFly-Skills: feat(coze): add file, task, a |
 | 2026-10-15（四） | 0 | ░░░░░ | — |
 | 2026-10-16（五） | 0 | ░░░░░ | — |
 
-> **活跃高峰**：2026-10-14（3 次活动）为最高峰。
+> **活跃高峰**：2026-10-10（4 次活动）为最高峰。
 
 ---
 
@@ -92,16 +93,16 @@ airockchip                     ██                   12%
 
 | 组织 | 活动数 | 占比 | 核心仓库 | 贡献类型 |
 |------|--------|------|----------|----------|
-| **iflytek** | 7 | 87.5% | iflytek/iFly-Skills(6), iflytek/astron-rpa(1) | PR, Push |
-| airockchip | 1 | 12.5% | airockchip/rknn-llm(1) | Issue |
+| **iflytek** | 10 | 90.9% | iflytek/iFly-Skills(6), iflytek/astron-rpa(4) | PR, Push |
+| airockchip | 1 | 9.1% | airockchip/rknn-llm(1) | Issue |
 
 ### 4.2 仓库详细 Top 10
 
 | 排名 | 仓库 | 活动数 | PR数 | Issue数 | Commit数 | 关键工作 |
 |------|------|--------|------|---------|---------|----------|
 | 1 | **iflytek/iFly-Skills** | 6 | 3 | 0 | 3 | PR #116: feat(coze): implement runtime adapters fo; PR #115: feat(coze): add file, task, and execution; PR #113: feat(Coze): Add Coze integration foundati |
-| 2 | **airockchip/rknn-llm** | 1 | 0 | 1 | 0 | Issue #537: Feat Request：为RK3576/3588添加LFM2.5-2.6B |
-| 3 | **iflytek/astron-rpa** | 1 | 0 | 0 | 1 | Commit: feat(n8n): Support for JSON and data-type  |
+| 2 | **iflytek/astron-rpa** | 4 | 0 | 0 | 4 | Commit: feat(n8n): Support for JSON and data-type ; Commit: supplement CI process; Commit: fix review |
+| 3 | **airockchip/rknn-llm** | 1 | 0 | 1 | 0 | Issue #537: Feat Request：为RK3576/3588添加LFM2.5-2.6B |
 
 ---
 
@@ -111,14 +112,13 @@ airockchip                     ██                   12%
 
 | # | 仓库 | PR | 标题 | 状态 |
 |---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#115](https://github.com/iflytek/iFly-Skills/pull/115) | feat(coze): add file, task, and execution infrastructure | ✅ 已合并 |
-| 2 | iflytek/iFly-Skills | [#113](https://github.com/iflytek/iFly-Skills/pull/113) | feat(Coze): Add Coze integration foundation and user-facing documentat | ✅ 已合并 |
+| 1 | iflytek/iFly-Skills | [#116](https://github.com/iflytek/iFly-Skills/pull/116) | feat(coze): implement runtime adapters for 11 skills | ✅ 已合并 |
+| 2 | iflytek/iFly-Skills | [#115](https://github.com/iflytek/iFly-Skills/pull/115) | feat(coze): add file, task, and execution infrastructure | ✅ 已合并 |
+| 3 | iflytek/iFly-Skills | [#113](https://github.com/iflytek/iFly-Skills/pull/113) | feat(Coze): Add Coze integration foundation and user-facing documentat | ✅ 已合并 |
 
 ### 5.2 进行中 / 开放的 PR 🔄
 
-| # | 仓库 | PR | 标题 | 状态 |
-|---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#116](https://github.com/iflytek/iFly-Skills/pull/116) | feat(coze): implement runtime adapters for 11 skills | 🔄 开放 |
+> 本周期无开放的 PR。
 
 ---
 
@@ -143,17 +143,20 @@ airockchip                     ██                   12%
   - Commit: feat(Coze): Add Coze integration foundation and user-facing 
   - Commit: feat(n8n): npm release checks (#112)
 
+### iflytek/astron-rpa（4 次活动）
+
+- **Commit**: 4 次
+- **主要工作**:
+  - Commit: feat(n8n): Support for JSON and data-type workflow integrati
+  - Commit: supplement CI process
+  - Commit: fix review
+  - Commit: supplemented VALIDATION.md
+
 ### airockchip/rknn-llm（1 次活动）
 
 - **Issue**: 1 个
 - **主要工作**:
   - Issue #537: Feat Request：为RK3576/3588添加LFM2.5-2.6B量化配置文件
-
-### iflytek/astron-rpa（1 次活动）
-
-- **Commit**: 1 次
-- **主要工作**:
-  - Commit: feat(n8n): Support for JSON and data-type workflow integrati
 
 
 ---
@@ -162,8 +165,8 @@ airockchip                     ██                   12%
 
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
+| iflytek/astron-rpa | 4 | 2026-10-10 | feat(n8n): Support for JSON and data-type workflow; supplement CI process; fix review |
 | iflytek/iFly-Skills | 3 | 2026-10-13 | feat(Coze): Add Coze integration foundation and us; feat(n8n): npm release checks (#112); feat(coze): add file, task, and execution infrastr |
-| iflytek/astron-rpa | 1 | 2026-10-10 | feat(n8n): Support for JSON and data-type workflow |
 
 ---
 
@@ -179,4 +182,4 @@ airockchip                     ██                   12%
 
 ---
 
-*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*

@@ -18,7 +18,6 @@
 | Pull Request 数 | **5** 个（已合并 5，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **2** 次 |
-| 活动事件数 | **9** 次 |
 | 总活动量 | **7** |
 
 ### 🎯 工作重心分布
@@ -59,9 +58,6 @@ luxi233                        ██                   14%
 | 📝 **Pull Request** | 5 | 已合并 5，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 2 | 代码提交 |
-| 🔀 **PullRequestEvent** | 4 | PR 操作 |
-| 📝 **PushEvent** | 3 | 代码推送 |
-| 🌿 **CreateEvent** | 2 | 创建分支/标签 |
 
 ---
 
@@ -166,4 +162,4 @@ luxi233                        ██                   14%
 
 ---
 
-*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*

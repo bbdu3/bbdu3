@@ -74,7 +74,7 @@ Updated the readme to  |
 | 2026-09-08（二） | 0 | ░░░░░ | — |
 | 2026-09-09（三） | 3 | ███░░ | PR #867 (iflytek/astron-rpa); PR #866 (iflytek/astron-rpa); PR #865 (iflytek/astron-rpa) |
 | 2026-09-10（四） | 0 | ░░░░░ | — |
-| **2026-09-11（五）** | **12** | ████████████ | 12 项活动（iflytek/astron-rpa, luxi233/astron-rpa） |
+| **2026-09-11（五）** | **12** | ████████████ | 12 项活动（luxi233/astron-rpa, iflytek/astron-rpa） |
 
 > **活跃高峰**：2026-09-11（12 次活动）为最高峰。
 
@@ -176,4 +176,4 @@ Updated the readme to  |
 
 ---
 
-*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*

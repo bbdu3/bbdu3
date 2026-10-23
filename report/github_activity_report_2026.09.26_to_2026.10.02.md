@@ -40,10 +40,10 @@ iflytek                        ████████████████�
 
 | 指标 | 上周 | 本周 | 变化 | 趋势 |
 |------|--------|--------|------|------|
-| **总活动量** | 9 | **6** | -33% | 📉 -3 |
+| **总活动量** | 11 | **6** | -45% | 📉 -5 |
 | Pull Request | 6 | 2 | -67% | 📉 -4 |
 | Issue | 0 | 0 | N/A | ➡️ 持平 |
-| Commit | 3 | 4 | +33% | 📈 +1 |
+| Commit | 5 | 4 | -20% | 📉 -1 |
 - ✅ **工作重心稳定**：继续聚焦 **iflytek**
 
 ---
@@ -71,7 +71,7 @@ iflytek                        ████████████████�
 |------|--------|--------|----------|
 | 2026-09-26（六） | 0 | ░░░░░ | — |
 | 2026-09-27（日） | 0 | ░░░░░ | — |
-| 2026-09-28（一） | 4 | ████░ | 4 项活动（iflytek/iFly-Skills), iflytek/iFly-Skills） |
+| 2026-09-28（一） | 4 | ████░ | 4 项活动（iflytek/iFly-Skills, iflytek/iFly-Skills)） |
 | 2026-09-29（二） | 0 | ░░░░░ | — |
 | 2026-09-30（三） | 2 | ██░░░ | iflytek/astron-rpa: feat(n8n): Added MCP-based Ast; iflytek/iFly-Skills: feat(n8n): add npm release au |
 | 2026-10-01（四） | 0 | ░░░░░ | — |
@@ -93,7 +93,7 @@ iflytek                        ████████████████�
 
 | 排名 | 仓库 | 活动数 | PR数 | Issue数 | Commit数 | 关键工作 |
 |------|------|--------|------|---------|---------|----------|
-| 1 | **iflytek/iFly-Skills** | 5 | 2 | 0 | 3 | PR #95: feat(n8n): add npm release automation, pac; PR #94: feat(n8n): add operational controls, accep; Commit: Fix runtime reliability issues in `voicecl |
+| 1 | **iflytek/iFly-Skills** | 5 | 2 | 0 | 3 | PR #95: feat(n8n): add npm release automation, pac; PR #94: feat(n8n): add operational controls, accep; Commit: feat(n8n): add operational controls, accep |
 | 2 | **iflytek/astron-rpa** | 1 | 0 | 0 | 1 | Commit: feat(n8n): Added MCP-based AstronRPA Commu |
 
 ---
@@ -128,8 +128,8 @@ iflytek                        ████████████████�
 - **主要工作**:
   - PR #95: feat(n8n): add npm release automation, package documentation
   - PR #94: feat(n8n): add operational controls, acceptance tooling, and
-  - Commit: Fix runtime reliability issues in `voiceclone-tts` and `spee
   - Commit: feat(n8n): add operational controls, acceptance tooling, and
+  - Commit: Fix runtime reliability issues in `voiceclone-tts` and `spee
   - Commit: feat(n8n): add npm release automation, package documentation
 
 ### iflytek/astron-rpa（1 次活动）
@@ -145,7 +145,7 @@ iflytek                        ████████████████�
 
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
-| iflytek/iFly-Skills | 3 | 2026-09-28 | Fix runtime reliability issues in `voiceclone-tts`; feat(n8n): add operational controls, acceptance to; feat(n8n): add npm release automation, package doc |
+| iflytek/iFly-Skills | 3 | 2026-09-28 | feat(n8n): add operational controls, acceptance to; Fix runtime reliability issues in `voiceclone-tts`; feat(n8n): add npm release automation, package doc |
 | iflytek/astron-rpa | 1 | 2026-09-30 | feat(n8n): Added MCP-based AstronRPA Community Nod |
 
 ---
@@ -162,4 +162,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-17（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*
