@@ -3,7 +3,7 @@
 > **统计周期**：2026年10月17日 — 2026年10月23日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：2
+> **公开仓库数**：11 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -15,7 +15,7 @@
 |------|------|
 | 涉及组织数 | **1** 个 |
 | 涉及仓库数 | **2** 个 |
-| Pull Request 数 | **3** 个（已合并 1，开放 2） |
+| Pull Request 数 | **3** 个（已合并 3，开放 0） |
 | Issue 数 | **1** 个 |
 | Commit 数 | **3** 次 |
 | 活动事件数 | **19** 次 |
@@ -30,11 +30,10 @@ iflytek                        ████████████████�
 ### 💡 核心总结
 
 1. **iflytek** 是最大贡献方向（100%），涉及 2 个仓库，共 7 次活动。
-2. 共 **1** 个 PR 已合并，覆盖 1 个仓库。
-3. **2** 个 PR 仍在开放/Review 中。
-4. 活跃高峰出现在 **2026-10-22**（5 次活动），展现了高强度的工作节奏。
-5. 创建了 **1** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
-6. 在 2 个仓库提交了 **3** 次代码。
+2. 共 **3** 个 PR 已合并，覆盖 2 个仓库。
+3. 活跃高峰出现在 **2026-10-22**（5 次活动），展现了高强度的工作节奏。
+4. 创建了 **1** 个 Issue，涉及项目规划、Bug 追踪和社区互动。
+5. 在 2 个仓库提交了 **3** 次代码。
 
 ### 📊 与上一周对比
 
@@ -57,7 +56,7 @@ iflytek                        ████████████████�
 | 指标 | 数量 | 说明 |
 |------|------|------|
 | 📊 **总活动** | **7** | PR + Issue + Commit |
-| 📝 **Pull Request** | 3 | 已合并 1，开放 2 |
+| 📝 **Pull Request** | 3 | 已合并 3，开放 0 |
 | 📋 **Issue** | 1 | 创建 Issue |
 | 💻 **Commit** | 3 | 代码提交 |
 | 🔀 **PullRequestEvent** | 6 | PR 操作 |
@@ -78,7 +77,7 @@ iflytek                        ████████████████�
 | 2026-10-19（一） | 0 | ░░░░░ | — |
 | 2026-10-20（二） | 2 | ██░░░ | Issue #120; iflytek/astron-rpa: fix(n8n): align rebased compon |
 | 2026-10-21（三） | 0 | ░░░░░ | — |
-| **2026-10-22（四）** | **5** | █████ | 5 项活动（iflytek/astron-rpa), iflytek/iFly-Skills, iflytek/iFly-Skills)） |
+| **2026-10-22（四）** | **5** | █████ | 5 项活动（iflytek/iFly-Skills, iflytek/astron-rpa), iflytek/iFly-Skills)） |
 | 2026-10-23（五） | 0 | ░░░░░ | — |
 
 > **活跃高峰**：2026-10-22（5 次活动）为最高峰。
@@ -108,14 +107,13 @@ iflytek                        ████████████████�
 
 | # | 仓库 | PR | 标题 | 状态 |
 |---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#123](https://github.com/iflytek/iFly-Skills/pull/123) | feat(coze): export validated OpenAPI 3.0.3 schemas for all 11 skills | ✅ 已合并 |
+| 1 | iflytek/iFly-Skills | [#124](https://github.com/iflytek/iFly-Skills/pull/124) | feat(coze): complete self-hosted deployment and console publishing wor | ✅ 已合并 |
+| 2 | iflytek/astron-rpa | [#904](https://github.com/iflytek/astron-rpa/pull/904) | feat(n8n): 新增 Office 文件、桌面 UI 和 AI 动态风险工作流支持 | ✅ 已合并 |
+| 3 | iflytek/iFly-Skills | [#123](https://github.com/iflytek/iFly-Skills/pull/123) | feat(coze): export validated OpenAPI 3.0.3 schemas for all 11 skills | ✅ 已合并 |
 
 ### 5.2 进行中 / 开放的 PR 🔄
 
-| # | 仓库 | PR | 标题 | 状态 |
-|---|------|----|------|------|
-| 1 | iflytek/iFly-Skills | [#124](https://github.com/iflytek/iFly-Skills/pull/124) | feat(coze): complete self-hosted deployment and console publishing wor | 🔄 开放 |
-| 2 | iflytek/astron-rpa | [#904](https://github.com/iflytek/astron-rpa/pull/904) | feat(n8n): 新增 Office 文件、桌面 UI 和 AI 动态风险工作流支持 | 🔄 开放 |
+> 本周期无开放的 PR。
 
 ---
 
@@ -138,8 +136,8 @@ iflytek                        ████████████████�
   - PR #124: feat(coze): complete self-hosted deployment and console publ
   - PR #123: feat(coze): export validated OpenAPI 3.0.3 schemas for all 1
   - Issue #120: fix(coze):Add throttling and audit logging for artifact down
-  - Commit: feat(coze): export validated OpenAPI 3.0.3 schemas for all 1
   - Commit: feat(coze): implement runtime adapters for 11 skills (#116)
+  - Commit: feat(coze): export validated OpenAPI 3.0.3 schemas for all 1
 
 ### iflytek/astron-rpa（2 次活动）
 
@@ -156,7 +154,7 @@ iflytek                        ████████████████�
 
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
-| iflytek/iFly-Skills | 2 | 2026-10-22 | feat(coze): export validated OpenAPI 3.0.3 schemas; feat(coze): implement runtime adapters for 11 skil |
+| iflytek/iFly-Skills | 2 | 2026-10-22 | feat(coze): implement runtime adapters for 11 skil; feat(coze): export validated OpenAPI 3.0.3 schemas |
 | iflytek/astron-rpa | 1 | 2026-10-20 | fix(n8n): align rebased component inventory and va |
 
 ---
@@ -173,4 +171,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*

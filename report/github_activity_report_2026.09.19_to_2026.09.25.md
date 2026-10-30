@@ -3,7 +3,7 @@
 > **统计周期**：2026年9月19日 — 2026年9月25日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：2
+> **公开仓库数**：11 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -18,7 +18,6 @@
 | Pull Request 数 | **6** 个（已合并 6，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **5** 次 |
-| 活动事件数 | **2** 次 |
 | 总活动量 | **11** |
 
 ### 🎯 工作重心分布
@@ -59,8 +58,6 @@ iflytek                        ████████████████�
 | 📝 **Pull Request** | 6 | 已合并 6，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 5 | 代码提交 |
-| 🔀 **PullRequestEvent** | 1 | PR 操作 |
-| 📝 **PushEvent** | 1 | 代码推送 |
 
 ---
 
@@ -170,4 +167,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*

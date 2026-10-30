@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月15日 — 2026年8月21日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：2
+> **公开仓库数**：11 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -47,7 +47,7 @@ iflytek                        ████████             44%
 | Issue | 4 | 2 | -50% | 📉 -2 |
 | Commit | 2 | 4 | +100% | 📈 +2 |
 
-- 🆕 **新增活跃仓库**：`bbdu3/bbdu3`, `iflytek/astronclaw-tutorial`, `iflytek/skillhub`
+- 🆕 **新增活跃仓库**：`bbdu3/bbdu3`, `iflytek/astron-harness-tutorial`, `iflytek/skillhub`
 - ❌ **不再活跃的仓库**：`iflytek/iFly-Skills`
 - 🔄 **工作重心转移**：从 **iflytek** 转向 **bbdu3**
 
@@ -70,10 +70,10 @@ iflytek                        ████████             44%
 |------|--------|--------|----------|
 | 2026-08-15（六） | 0 | ░░░░░ | — |
 | 2026-08-16（日） | 0 | ░░░░░ | — |
-| **2026-08-17（一）** | **7** | ███████ | 7 项活动（bbdu3/bbdu3), bbdu3/bbdu3, iflytek/astron-rpa)） |
+| **2026-08-17（一）** | **7** | ███████ | 7 项活动（iflytek/astron-rpa), bbdu3/bbdu3, bbdu3/bbdu3)） |
 | 2026-08-18（二） | 0 | ░░░░░ | — |
 | 2026-08-19（三） | 0 | ░░░░░ | — |
-| 2026-08-20（四） | 1 | █░░░░ | PR #73 (iflytek/astronclaw-tutorial) |
+| 2026-08-20（四） | 1 | █░░░░ | PR #73 (iflytek/astron-harness-tutorial) |
 | 2026-08-21（五） | 1 | █░░░░ | Issue #740 |
 
 > **活跃高峰**：2026-08-17（7 次活动）为最高峰。
@@ -87,7 +87,7 @@ iflytek                        ████████             44%
 | 组织 | 活动数 | 占比 | 核心仓库 | 贡献类型 |
 |------|--------|------|----------|----------|
 | **bbdu3** | 5 | 55.6% | bbdu3/bbdu3(5) | PR, Push |
-| **iflytek** | 4 | 44.4% | iflytek/astron-rpa(2), iflytek/astronclaw-tutorial(1), iflytek/skillhub(1) | Issue, PR |
+| **iflytek** | 4 | 44.4% | iflytek/astron-rpa(2), iflytek/astron-harness-tutorial(1), iflytek/skillhub(1) | Issue, PR |
 
 ### 4.2 仓库详细 Top 10
 
@@ -95,7 +95,7 @@ iflytek                        ████████             44%
 |------|------|--------|------|---------|---------|----------|
 | 1 | **bbdu3/bbdu3** | 5 | 1 | 0 | 4 | PR #1: pr; Commit: Merge pull request #1 from bbdu3/issue-1; Commit: pr |
 | 2 | **iflytek/astron-rpa** | 2 | 1 | 1 | 0 | PR #845: Fix off-by-one error in task retry handli; Issue #844: [Bug]: `engine/..../executor.py`中任务重试次 |
-| 3 | **iflytek/astronclaw-tutorial** | 1 | 1 | 0 | 0 | PR #73: docs: Fix AstronClaw links and improve Loo |
+| 3 | **iflytek/astron-harness-tutorial** | 1 | 1 | 0 | 0 | PR #73: docs: Fix AstronClaw links and improve Loo |
 | 4 | **iflytek/skillhub** | 1 | 0 | 1 | 0 | Issue #740: [Bug] API message localization depends |
 
 ---
@@ -113,7 +113,7 @@ iflytek                        ████████             44%
 
 | # | 仓库 | PR | 标题 | 状态 |
 |---|------|----|------|------|
-| 1 | iflytek/astronclaw-tutorial | [#73](https://github.com/iflytek/astronclaw-tutorial/pull/73) | docs: Fix AstronClaw links and improve Loomy quick-start documentation | 🔄 开放 |
+| 1 | iflytek/astron-harness-tutorial | [#73](https://github.com/iflytek/astron-harness-tutorial/pull/73) | docs: Fix AstronClaw links and improve Loomy quick-start documentation | 🔄 开放 |
 
 ---
 
@@ -147,7 +147,7 @@ iflytek                        ████████             44%
   - PR #845: Fix off-by-one error in task retry handling
   - Issue #844: [Bug]: `engine/..../executor.py`中任务重试次数判断错误
 
-### iflytek/astronclaw-tutorial（1 次活动）
+### iflytek/astron-harness-tutorial（1 次活动）
 
 - **PR**: 1 个
 - **主要工作**:
@@ -182,4 +182,4 @@ iflytek                        ████████             44%
 
 ---
 
-*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*

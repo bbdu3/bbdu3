@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月29日 — 2026年9月4日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：2
+> **公开仓库数**：11 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -41,13 +41,13 @@ luxi233                        ███                  15%
 
 | 指标 | 上周 | 本周 | 变化 | 趋势 |
 |------|--------|--------|------|------|
-| **总活动量** | 5 | **13** | +160% | 📈 +8 |
+| **总活动量** | 6 | **13** | +117% | 📈 +7 |
 | Pull Request | 1 | 5 | +400% | 📈 +4 |
 | Issue | 1 | 4 | +300% | 📈 +3 |
-| Commit | 3 | 4 | +33% | 📈 +1 |
+| Commit | 4 | 4 | 0% | ➡️ 持平 |
 
 - 🆕 **新增活跃仓库**：`iflytek/astron-rpa`, `luxi233/astron-rpa`
-- ❌ **不再活跃的仓库**：`hnxtcloud/astronhub`, `iflytek/skillhub`, `tellbom/skillhub`
+- ❌ **不再活跃的仓库**：`brandonfang06/skillhub-security`, `hnxtcloud/astronhub`, `iflytek/skillhub`, `tellbom/skillhub`
 - ✅ **工作重心稳定**：继续聚焦 **iflytek**
 
 ---
@@ -72,7 +72,7 @@ luxi233                        ███                  15%
 | 2026-08-31（一） | 0 | ░░░░░ | — |
 | 2026-09-01（二） | 3 | ███░░ | PR #856 (iflytek/astron-rpa); Issue #855; Issue #854 |
 | 2026-09-02（三） | 4 | ████░ | 4 项活动（iflytek/astron-rpa)） |
-| 2026-09-03（四） | 4 | ████░ | 4 项活动（luxi233/astron-rpa, iflytek/astron-rpa, iflytek/astron-rpa)） |
+| 2026-09-03（四） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, iflytek/astron-rpa), luxi233/astron-rpa） |
 | 2026-09-04（五） | 2 | ██░░░ | iflytek/astron-rpa: fix: sanitize sensitive data i; luxi233/astron-rpa: fix: sanitize sensitive data i |
 
 > **活跃高峰**：2026-09-03（4 次活动）为最高峰。
@@ -171,4 +171,4 @@ luxi233                        ███                  15%
 
 ---
 
-*报告生成时间：2026-10-24（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*
