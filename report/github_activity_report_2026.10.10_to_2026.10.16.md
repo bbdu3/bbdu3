@@ -3,7 +3,7 @@
 > **统计周期**：2026年10月10日 — 2026年10月16日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：3
+> **公开仓库数**：14 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -73,7 +73,7 @@ airockchip                     █                    9%
 
 | 日期 | 活动数 | 活跃度 | 主要工作 |
 |------|--------|--------|----------|
-| 2026-10-10（六） | 4 | ████░ | 4 项活动（iflytek/astron-rpa, iflytek/iFly-Skills)） |
+| 2026-10-10（六） | 4 | ████░ | 4 项活动（iflytek/iFly-Skills), iflytek/astron-rpa） |
 | 2026-10-11（日） | 0 | ░░░░░ | — |
 | 2026-10-12（一） | 1 | █░░░░ | iflytek/astron-rpa: supplement CI process
 
@@ -101,7 +101,7 @@ Signed- |
 | 排名 | 仓库 | 活动数 | PR数 | Issue数 | Commit数 | 关键工作 |
 |------|------|--------|------|---------|---------|----------|
 | 1 | **iflytek/iFly-Skills** | 6 | 3 | 0 | 3 | PR #116: feat(coze): implement runtime adapters fo; PR #115: feat(coze): add file, task, and execution; PR #113: feat(Coze): Add Coze integration foundati |
-| 2 | **iflytek/astron-rpa** | 4 | 0 | 0 | 4 | Commit: feat(n8n): Support for JSON and data-type ; Commit: supplement CI process; Commit: fix review |
+| 2 | **iflytek/astron-rpa** | 4 | 0 | 0 | 4 | Commit: supplement CI process; Commit: fix review; Commit: supplemented VALIDATION.md |
 | 3 | **airockchip/rknn-llm** | 1 | 0 | 1 | 0 | Issue #537: Feat Request：为RK3576/3588添加LFM2.5-2.6B |
 
 ---
@@ -147,10 +147,10 @@ Signed- |
 
 - **Commit**: 4 次
 - **主要工作**:
-  - Commit: feat(n8n): Support for JSON and data-type workflow integrati
   - Commit: supplement CI process
   - Commit: fix review
   - Commit: supplemented VALIDATION.md
+  - Commit: feat(n8n): Support for JSON and data-type workflow integrati
 
 ### airockchip/rknn-llm（1 次活动）
 
@@ -165,7 +165,7 @@ Signed- |
 
 | 仓库 | Commit数 | 最新提交 | 主要变更 |
 |------|---------|---------|---------|
-| iflytek/astron-rpa | 4 | 2026-10-10 | feat(n8n): Support for JSON and data-type workflow; supplement CI process; fix review |
+| iflytek/astron-rpa | 4 | 2026-10-12 | supplement CI process; fix review; supplemented VALIDATION.md |
 | iflytek/iFly-Skills | 3 | 2026-10-13 | feat(Coze): Add Coze integration foundation and us; feat(n8n): npm release checks (#112); feat(coze): add file, task, and execution infrastr |
 
 ---
@@ -182,4 +182,4 @@ Signed- |
 
 ---
 
-*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-11-07（北京时间） | 数据来源：GitHub Search API, Events API*

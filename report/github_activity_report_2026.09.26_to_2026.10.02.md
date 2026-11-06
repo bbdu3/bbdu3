@@ -3,7 +3,7 @@
 > **统计周期**：2026年9月26日 — 2026年10月2日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：3
+> **公开仓库数**：14 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -18,7 +18,6 @@
 | Pull Request 数 | **2** 个（已合并 2，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **4** 次 |
-| 活动事件数 | **1** 次 |
 | 总活动量 | **6** |
 
 ### 🎯 工作重心分布
@@ -56,7 +55,6 @@ iflytek                        ████████████████�
 | 📝 **Pull Request** | 2 | 已合并 2，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 4 | 代码提交 |
-| 📝 **PushEvent** | 1 | 代码推送 |
 
 ---
 
@@ -66,7 +64,7 @@ iflytek                        ████████████████�
 |------|--------|--------|----------|
 | 2026-09-26（六） | 0 | ░░░░░ | — |
 | 2026-09-27（日） | 0 | ░░░░░ | — |
-| 2026-09-28（一） | 4 | ████░ | 4 项活动（iflytek/iFly-Skills, iflytek/iFly-Skills)） |
+| 2026-09-28（一） | 4 | ████░ | 4 项活动（iflytek/iFly-Skills), iflytek/iFly-Skills） |
 | 2026-09-29（二） | 0 | ░░░░░ | — |
 | 2026-09-30（三） | 2 | ██░░░ | iflytek/astron-rpa: feat(n8n): Added MCP-based Ast; iflytek/iFly-Skills: feat(n8n): add npm release au |
 | 2026-10-01（四） | 0 | ░░░░░ | — |
@@ -157,4 +155,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-11-07（北京时间） | 数据来源：GitHub Search API, Events API*

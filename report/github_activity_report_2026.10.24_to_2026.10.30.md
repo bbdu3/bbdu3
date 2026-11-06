@@ -3,7 +3,7 @@
 > **统计周期**：2026年10月24日 — 2026年10月30日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：3
+> **公开仓库数**：14 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -15,7 +15,7 @@
 |------|------|
 | 涉及组织数 | **1** 个 |
 | 涉及仓库数 | **2** 个 |
-| Pull Request 数 | **1** 个（已合并 0，开放 1） |
+| Pull Request 数 | **1** 个（已合并 1，开放 0） |
 | Issue 数 | **0** 个 |
 | Commit 数 | **2** 次 |
 | 活动事件数 | **8** 次 |
@@ -30,7 +30,7 @@ iflytek                        ████████████████�
 ### 💡 核心总结
 
 1. **iflytek** 是最大贡献方向（100%），涉及 2 个仓库，共 3 次活动。
-2. **1** 个 PR 仍在开放/Review 中。
+2. 共 **1** 个 PR 已合并，覆盖 1 个仓库。
 3. 活跃高峰出现在 **2026-10-27**（1 次活动），展现了高强度的工作节奏。
 4. 在 2 个仓库提交了 **2** 次代码。
 
@@ -53,7 +53,7 @@ iflytek                        ████████████████�
 | 指标 | 数量 | 说明 |
 |------|------|------|
 | 📊 **总活动** | **3** | PR + Issue + Commit |
-| 📝 **Pull Request** | 1 | 已合并 0，开放 1 |
+| 📝 **Pull Request** | 1 | 已合并 1，开放 0 |
 | 📋 **Issue** | 0 | 创建 Issue |
 | 💻 **Commit** | 2 | 代码提交 |
 | 🔀 **PullRequestEvent** | 3 | PR 操作 |
@@ -100,13 +100,13 @@ iflytek                        ████████████████�
 
 ### 5.1 已合并/已关闭的 PR ✅
 
-> 本周期无已合并的 PR。
+| # | 仓库 | PR | 标题 | 状态 |
+|---|------|----|------|------|
+| 1 | iflytek/astron-rpa | [#905](https://github.com/iflytek/astron-rpa/pull/905) | feat(n8n): Improve production operation support, observability, and np | ✅ 已合并 |
 
 ### 5.2 进行中 / 开放的 PR 🔄
 
-| # | 仓库 | PR | 标题 | 状态 |
-|---|------|----|------|------|
-| 1 | iflytek/astron-rpa | [#905](https://github.com/iflytek/astron-rpa/pull/905) | feat(n8n): Improve production operation support, observability, and np | 🔄 开放 |
+> 本周期无开放的 PR。
 
 ---
 
@@ -156,4 +156,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-11-07（北京时间） | 数据来源：GitHub Search API, Events API*

@@ -3,7 +3,7 @@
 > **统计周期**：2026年10月17日 — 2026年10月23日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：3
+> **公开仓库数**：14 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -77,7 +77,7 @@ iflytek                        ████████████████�
 | 2026-10-19（一） | 0 | ░░░░░ | — |
 | 2026-10-20（二） | 2 | ██░░░ | Issue #120; iflytek/astron-rpa: fix(n8n): align rebased compon |
 | 2026-10-21（三） | 0 | ░░░░░ | — |
-| **2026-10-22（四）** | **5** | █████ | 5 项活动（iflytek/iFly-Skills, iflytek/astron-rpa), iflytek/iFly-Skills)） |
+| **2026-10-22（四）** | **5** | █████ | 5 项活动（iflytek/astron-rpa), iflytek/iFly-Skills), iflytek/iFly-Skills） |
 | 2026-10-23（五） | 0 | ░░░░░ | — |
 
 > **活跃高峰**：2026-10-22（5 次活动）为最高峰。
@@ -171,4 +171,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-11-07（北京时间） | 数据来源：GitHub Search API, Events API*

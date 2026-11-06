@@ -3,7 +3,7 @@
 > **统计周期**：2026年8月22日 — 2026年8月28日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：3
+> **公开仓库数**：14 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -73,7 +73,7 @@ hnxtcloud                      ███                  17%
 | 2026-08-23（日） | 0 | ░░░░░ | — |
 | 2026-08-24（一） | 2 | ██░░░ | PR #752 (iflytek/skillhub); Issue #749 |
 | 2026-08-25（二） | 0 | ░░░░░ | — |
-| 2026-08-26（三） | 4 | ████░ | 4 项活动（tellbom/skillhub, iflytek/skillhub, brandonfang06/skillhub-security） |
+| 2026-08-26（三） | 4 | ████░ | 4 项活动（brandonfang06/skillhub-security, hnxtcloud/astronhub, iflytek/skillhub） |
 | 2026-08-27（四） | 0 | ░░░░░ | — |
 | 2026-08-28（五） | 0 | ░░░░░ | — |
 
@@ -181,4 +181,4 @@ hnxtcloud                      ███                  17%
 
 ---
 
-*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-11-07（北京时间） | 数据来源：GitHub Search API, Events API*

@@ -3,7 +3,7 @@
 > **统计周期**：2026年9月19日 — 2026年9月25日
 > **用户**：[bbdu3](https://github.com/bbdu3)（bbdu3）
 > **简介**：
-> **公开仓库数**：11 | **Followers**：0 | **Following**：3
+> **公开仓库数**：14 | **Followers**：0 | **Following**：3
 
 ---
 
@@ -66,7 +66,7 @@ iflytek                        ████████████████�
 | 日期 | 活动数 | 活跃度 | 主要工作 |
 |------|--------|--------|----------|
 | 2026-09-19（六） | 0 | ░░░░░ | — |
-| **2026-09-20（日）** | **5** | █████ | 5 项活动（iflytek/astron-rpa, iflytek/astron-rpa)） |
+| **2026-09-20（日）** | **5** | █████ | 5 项活动（iflytek/astron-rpa), iflytek/astron-rpa） |
 | 2026-09-21（一） | 2 | ██░░░ | PR #92 (iflytek/iFly-Skills); PR #91 (iflytek/iFly-Skills) |
 | 2026-09-22（二） | 1 | █░░░░ | iflytek/iFly-Skills: feat(n8n): standardize skill  |
 | 2026-09-23（三） | 2 | ██░░░ | PR #93 (iflytek/iFly-Skills); iflytek/iFly-Skills: feat(n8n): implement shared P |
@@ -167,4 +167,4 @@ iflytek                        ████████████████�
 
 ---
 
-*报告生成时间：2026-10-31（北京时间） | 数据来源：GitHub Search API, Events API*
+*报告生成时间：2026-11-07（北京时间） | 数据来源：GitHub Search API, Events API*
